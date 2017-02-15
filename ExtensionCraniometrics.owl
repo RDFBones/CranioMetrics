@@ -401,7 +401,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -415,7 +415,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.GOL"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.GOL"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -429,7 +429,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -443,7 +443,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.XCB"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.XCB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -457,7 +457,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -471,7 +471,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.ZYB"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.ZYB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -485,7 +485,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -499,7 +499,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.BBH"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BBH"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -513,7 +513,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -527,7 +527,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.BNL"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BNL"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -541,7 +541,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -555,7 +555,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.BPL"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BPL"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -569,7 +569,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -583,7 +583,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.MAB"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MAB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -597,7 +597,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -611,7 +611,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.MAL"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MAL"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -625,7 +625,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -639,7 +639,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.AUB"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.AUB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -653,7 +653,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -667,7 +667,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.UFHT"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.UFHT"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>The shape of the Orbital Aperture should be scored according to Sjøvold 1988 (graph 168, d) viewed frontally (in norma facialis).
@@ -693,7 +693,7 @@ Hypermasculine: quadrangular</core1:description>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -707,7 +707,7 @@ Hypermasculine: quadrangular</core1:description>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.WFB"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.WFB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -721,7 +721,7 @@ Hypermasculine: quadrangular</core1:description>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -735,7 +735,7 @@ Hypermasculine: quadrangular</core1:description>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.UFBR"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.UFBR"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -749,7 +749,7 @@ Hypermasculine: quadrangular</core1:description>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -763,7 +763,7 @@ Hypermasculine: quadrangular</core1:description>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.NLH"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.NLH"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -777,7 +777,7 @@ Hypermasculine: quadrangular</core1:description>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -791,7 +791,7 @@ Hypermasculine: quadrangular</core1:description>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.NLB"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.NLB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -825,102 +825,102 @@ Hypermasculine: quadrangular</core1:description>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.GOL"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.GOL"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.XCB"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.XCB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.ZYB"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.ZYB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.BBH"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BBH"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.BNL"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BNL"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.BPL"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BPL"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.MAB"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MAB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.MAL"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MAL"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.AUB"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.AUB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.UFHT"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.UFHT"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.WFB"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.WFB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.UFBR"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.UFBR"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.NLH"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.NLH"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.NLB"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.NLB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>A DataTransformation.Craniometrics is performed to obtain a DegreeOfSexualization.
-According to the DataTransformationObjective.Craniometrics, the DegreeOfSexualization is only calculated from weighted means of data items (SexScores) which were collected on a single skull.
+According to the DataTransformationObjective.Craniometrics, the DegreeOfSexualization is only calculated from weighted means of data items (SkullMeasurements) which were collected on a single skull.
 The calculation must be done by hand following these steps (the researcher may use the .csv version of the AlexanderEckerCollectionDataEntryForm):
 
 1st step: assign rational numbers (X) to labels
@@ -950,7 +950,7 @@ Zygomatic process: X*3
 Craniometrics.NLB: X*2
 
 
-3rd step: calculate sum of weighted SexScores and sum of weights
+3rd step: calculate sum of weighted SkullMeasurements and sum of weights
 
 sum(WSS):   sum up (Xi * Wj) for i assays with their respective weights j
 
@@ -996,7 +996,7 @@ DegreeOfSexualization = sum(WSS) / sum(W)</core1:description>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForSex"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The DegreeOfSexualization is calculated from SexScores from assays carried out on material of one single skull or parts of one single skull. Thus, the conclusion refers to one individual.
+        <core1:description>The DegreeOfSexualization is calculated from SkullMeasurements from assays carried out on material of one single skull or parts of one single skull. Thus, the conclusion refers to one individual.
 The DegreeOfSexualization is a rational number that ranges from -2 to +2 with negative values indicating femininity and positive values indicating masculinity.
 There are at leat two ways of drawing a conclusion based on the DegreeOfSexualization, i.e. two ways of selecting a LabelForSex. It is highly recommended to specify the way of drawing a conclusion in the plan and follow the plan throughout the whole investigation.
 
@@ -1063,7 +1063,7 @@ In this case, please add a comment to the instance of EstimatingSexBasedOnDegree
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForSex">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000963"/>
-        <core1:description>The instances of this class are used as labels for instances of subclasses of SexScore and instances of EstimatingSexBasedOnDegreeOfSexualization (= drawing a conclusion).
+        <core1:description>The instances of this class are used as labels for instances of subclasses of SkullMeasurement and instances of EstimatingSexBasedOnDegreeOfSexualization (= drawing a conclusion).
 They denote the appearance of traits that a researcher evaluated or denote the sex of an individual that was estimated based on the DegreeOfSexualization.</core1:description>
     </owl:Class>
     
@@ -1119,9 +1119,9 @@ The researcher may specify how to draw a conclusion based on the DegreeOfSexuali
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore">
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1134,140 +1134,140 @@ The researcher may specify how to draw a conclusion based on the DegreeOfSexuali
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.GOL -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.GOL -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.GOL">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.GOL">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
 The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.XCB -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.XCB -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.XCB">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.XCB">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
 The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.ZYB -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.ZYB -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.ZYB">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.ZYB">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
 The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.BBH -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BBH -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.BBH">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BBH">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
 The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.BNL -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BNL -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.BNL">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BNL">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
 The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.BPL -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BPL -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.BPL">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BPL">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
 The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.MAB -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MAB -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.MAB">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MAB">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
 The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.MAL -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MAL -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.MAL">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MAL">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
 The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.AUB -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.AUB -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.AUB">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.AUB">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
 The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.UFHT -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.UFHT -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.UFHT">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.UFHT">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
 The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.WFB -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.WFB -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.WFB">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.WFB">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
 The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.UFBR -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.UFBR -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.UFBR">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.UFBR">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
 The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.NLH -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.NLH -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.NLH">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.NLH">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
 The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.NLB -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.NLB -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Craniometrics.NLB">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.NLB">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
 The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
@@ -1297,7 +1297,7 @@ The class which SkeletalMaterialSpecification.Craniometrics is about defines the
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.Craniometrics).
@@ -1313,7 +1313,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.Craniometrics).
@@ -1329,7 +1329,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.Craniometrics).
@@ -1345,7 +1345,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.Craniometrics).
@@ -1361,7 +1361,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.Craniometrics).
@@ -1377,7 +1377,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.Craniometrics).
@@ -1393,7 +1393,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.Craniometrics).
@@ -1409,7 +1409,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.Craniometrics).
@@ -1425,7 +1425,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.Craniometrics).
@@ -1441,7 +1441,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.Craniometrics).
@@ -1457,7 +1457,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.Craniometrics).
@@ -1473,7 +1473,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.Craniometrics).
@@ -1489,7 +1489,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.Craniometrics).
@@ -1505,7 +1505,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.Craniometrics).
@@ -2369,7 +2369,7 @@ The researcher is encouraged to specify his procedure in the Plan.Craniometrics.
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DataTransformationObjective.Craniometrics">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
-        <core1:description>The DegreeOfSexualization is calculated from weighted means of SexScores. Thus, the DegreeOfSexualization may have the same value if all 14 assays were carried out or if only one assay was carried out.
+        <core1:description>The DegreeOfSexualization is calculated from weighted means of SkullMeasurements. Thus, the DegreeOfSexualization may have the same value if all 14 assays were carried out or if only one assay was carried out.
 Many anthropologists, especially in continental Europe, share the following assumption: the more traits are evaluated, the more reliable is the sex estimation. Since you cannot tell from the DegreeOfSexualization alone how many traits were evaluated, the data transformation objective states that a data transformation may performed only in cases where a sufficient number of traits were evaluated (to ensure the reliability of the following conclusion based on the DegreeOfSexualization).
 Due to a lack of empirical evidence for a &quot;sufficient number of evaluated traits&quot;, the researcher may specify this precisely in the corresponding instance of Plan.Craniometrics.</core1:description>
         <rdfs:label>DataTransformationObjective.Craniometrics</rdfs:label>
@@ -2460,20 +2460,20 @@ Due to a lack of empirical evidence for a &quot;sufficient number of evaluated t
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation">
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000067"/>
         <core1:description>The estimation of the sex of an individual based on skeletal remains is a classical aim of anthropological investigations. It can be realized by evaluating different traits on different bony parts of the skeleton.
 All material and all traits (=assays) that can be used to estimate the sex of an individual based on skeletal remains are related to this instance and can easily be queried.</core1:description>
-        <rdfs:label>SexEstimation</rdfs:label>
+        <rdfs:label>Craniometrics</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
     
 
 
@@ -2664,8 +2664,8 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.Craniometrics">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001892"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DegreeOfSexualization"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
-        <core1:description>In each FrSexEst investigation two types of data are generated. There is one SexScore for each assay, thus a maximum of 14 different SexScores per StudyDesignExecution.Craniometrics. These SexScores are transformed into one DegreeOfSexualization.</core1:description>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>In each FrSexEst investigation two types of data are generated. There is one SkullMeasurement for each assay, thus a maximum of 14 different SkullMeasurements per StudyDesignExecution.Craniometrics. These SkullMeasurements are transformed into one DegreeOfSexualization.</core1:description>
         <rdfs:label>SpecificationOfDataToBeGeneratedInAnInvestigation.Craniometrics</rdfs:label>
     </owl:NamedIndividual>
     
@@ -3327,12 +3327,12 @@ Hypermasculine: very large, irregular surface</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DegreeOfSexualization">
         <core1:description>The DegreeOfSexualization is the outcome of the DataTransformation.Craniometrics.
-According to the DataTransformationObjective.Craniometrics, the DegreeOfSexualization is only calculated from weighted means of data items (SexScores) which were collected on a single skull.
+According to the DataTransformationObjective.Craniometrics, the DegreeOfSexualization is only calculated from weighted means of data items (SkullMeasurements) which were collected on a single skull.
 A DegreeOfSexualization calculated from data items collected from material that belongs to different individuals is meaningless.
 The DegreeOfSexualization is a rational number (therefore type xsd:float) ranging from-2 to +2.</core1:description>
     </rdf:Description>
-    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore">
-        <core1:description>The outcome of the assays that are used in a FrSexEst investigation is stored as a data item of the type SexScore. There exists a subclass of SexScore for each assay.</core1:description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement">
+        <core1:description>The outcome of the assays that are used in a FrSexEst investigation is stored as a data item of the type SkullMeasurement. There exists a subclass of SkullMeasurement for each assay.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.GOL">
         <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
