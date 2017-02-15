@@ -1,0 +1,3412 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://w3id.org/rdfbones/extensions/FrSexEst#"
+     xml:base="http://w3id.org/rdfbones/extensions/FrSexEst"
+     xmlns:study_protocol="http://purl.org/net/OCRe/study_protocol.owl#"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:geopolitical="http://aims.fao.org/aos/geopolitical.owl#"
+     xmlns:vitro="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+     xmlns:skos2="http://www.w3.org/2008/05/skos#"
+     xmlns:core="http://w3id.org/rdfbones/core#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:core1="http://vivoweb.org/ontology/core#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vitro.mannlib.cornell.edu/ns/vitro/0.7#inClassGroup -->
+
+    <owl:AnnotationProperty rdf:about="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#inClassGroup"/>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#description -->
+
+    <owl:AnnotationProperty rdf:about="http://vivoweb.org/ontology/core#description"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000055 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000417 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000417"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000999 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000999">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001938 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001938"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000059 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000059"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#isDepicted -->
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/rdfbones/core#isDepicted"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#isMentioned -->
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/rdfbones/core#isMentioned"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#hasValue"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_46565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46565"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000572"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000066"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000067"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000260"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000272"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000338"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000339"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000471"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000659 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000684"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000938 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000938"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000963"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001892"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001896 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001896"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001930"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001933 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001933"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0200000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0200166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200166"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500000"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/AcademicArticle -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/AcademicArticle"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/Book -->
+
+    <owl:Class rdf:about="http://purl.org/ontology/bibo/Book"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#Completeness2States -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#Completeness2States"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfMandible -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#SkeletalInventory -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#SkeletalInventory"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#SkeletalMaterialRequirement -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#SkeletalMaterialSpecification -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#SkeletalMaterialSpecification"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ExternalOccipitalProtuberance -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ExternalOccipitalProtuberance">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ExternalOccipitalProtuberance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.ExternalOccipitalProtuberance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrontalAndParietalEminences -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrontalAndParietalEminences">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrontalAndParietalEminences"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.FrontalAndParietalEminences"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Glabella -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Glabella">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.Glabella"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Glabella"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.GonialAngle -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.GonialAngle">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.GonialAngle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.GonialAngle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MandibleAsAWhole -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MandibleAsAWhole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MandibleAsAWhole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MandibleAsAWhole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MastoidProcess -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MastoidProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MastoidProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MastoidProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalProtuberance -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalProtuberance">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MentalProtuberance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MentalProtuberance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MylohyoidLine -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MylohyoidLine">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MylohyoidLine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MylohyoidLine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.NuchalPlanum -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.NuchalPlanum">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.NuchalPlanum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.NuchalPlanum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.OrbitalAperture -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.OrbitalAperture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.OrbitalAperture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.OrbitalAperture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The shape of the Orbital Aperture should be scored according to Sjøvold 1988 (graph 168, d) viewed frontally (in norma facialis).
+These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
+
+Hyperfeminine: round
+
+Feminine: round
+
+Indifferent: medium
+
+Masculine: slightly quadrangular
+
+Hypermasculine: quadrangular</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SuperciliaryArch -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SuperciliaryArch">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.SuperciliaryArch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.SuperciliaryArch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SupramastoidCrest -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SupramastoidCrest">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.SupramastoidCrest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.SupramastoidCrest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ZygomaticProcess -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ZygomaticProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ZygomaticProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.ZygomaticProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Zygomatics -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Zygomatics">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.Zygomatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Zygomatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#DataTransformation.FrSexEst -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DataTransformation.FrSexEst">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesignExecution.FrSexEst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DataTransformationObjective.FrSexEst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DegreeOfSexualization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.ExternalOccipitalProtuberance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.FrontalAndParietalEminences"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Glabella"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.GonialAngle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MandibleAsAWhole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MastoidProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MentalProtuberance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MylohyoidLine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.NuchalPlanum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.OrbitalAperture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.SuperciliaryArch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.SupramastoidCrest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.ZygomaticProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Zygomatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>A DataTransformation.FrSexEst is performed to obtain a DegreeOfSexualization.
+According to the DataTransformationObjective.FrSexEst, the DegreeOfSexualization is only calculated from weighted means of data items (SexScores) which were collected on a single skull.
+The calculation must be done by hand following these steps (the researcher may use the .csv version of the AlexanderEckerCollectionDataEntryForm):
+
+1st step: assign rational numbers (X) to labels
+
+hyperfeminine -&gt; -2
+feminine -&gt; -1
+indifferent -&gt; 0
+masculine -&gt; +1
+hypermasculine -&gt; +2
+
+
+2nd step: calculate weighted Sex Scores (X*W) for each assay
+
+External occipital protuberance: X*2
+Frontal and parietal eminences: X*2
+Glabella: X*3
+Gonial angle: X*2
+Mandible as a whole: X*3
+Mastoid process: X*3
+Mental protuberance: X*2
+Mylohyoid line: X*1
+Nuchal planum: X*3
+Orbital aperture: X*1
+Superciliary arch: X*2
+Supramastoid crest: X*2
+Zygomatic process: X*3
+Zygomatics: X*2
+
+
+3rd step: calculate sum of weighted SexScores and sum of weights
+
+sum(WSS):   sum up (Xi * Wj) for i assays with their respective weights j
+
+sum(W):   sum up the values of all weights Wj
+
+
+4th step: calcalute DegreeOfSexualization
+
+DegreeOfSexualization = sum(WSS) / sum(W)</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#DegreeOfSexualization -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DegreeOfSexualization">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#EstimatingSexBasedOnDegreeOfSexualization -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#EstimatingSexBasedOnDegreeOfSexualization">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DegreeOfSexualization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForSex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The DegreeOfSexualization is calculated from SexScores from assays carried out on material of one single skull or parts of one single skull. Thus, the conclusion refers to one individual.
+The DegreeOfSexualization is a rational number that ranges from -2 to +2 with negative values indicating femininity and positive values indicating masculinity.
+There are at leat two ways of drawing a conclusion based on the DegreeOfSexualization, i.e. two ways of selecting a LabelForSex. It is highly recommended to specify the way of drawing a conclusion in the plan and follow the plan throughout the whole investigation.
+
+
+1. Rigorously calculating
+
+Since the DegreeOfSexualization (abbr. DoS) is a decimal number ranging from -2 to +2, one could follow these rules:
+
+If +2 &gt;= DoS &gt;= 1.5 then sex is regarded as hypermasculine
+
+If 1.5 &gt; DoS &gt;= 0.5 then sex is regarded as masculine
+
+If 0.5 &gt; DoS &gt; -0.5 then sex is regarded as indifferent
+
+If -1.5 &lt; DoS =&lt; -0.5 then sex is regarded as feminine
+
+If -2 =&lt; DoS =&lt; -1.5 then sex is regarded as hyperfeminine
+
+This way does not require any kind of expert knowledge. Therefore, this way of sex estimation is rather a data transformation then a conclusion, but it is objective and comprehensible.
+
+
+2. Expert judgement
+
+One could regard the DegreeOfSexualization just as an useful indication. Together with the expertise of an experienced anthropologist and maybe further information on the sexual dimorphism of a given population and the state of preservation, the researcher may draw a conclusion. This conclusion – as an amalgamation of different kinds of information and experience – is therefore less objective and comprehensible but may be more reliable.
+In this case, please add a comment to the instance of EstimatingSexBasedOnDegreeOfSexualization and explain the conclusion in greater detail.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Investigation.FrSexEst -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Investigation.FrSexEst">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000066"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000572"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#EstimatingSexBasedOnDegreeOfSexualization"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Planning.FrSexEst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesignExecution.FrSexEst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The Freiburg method of sex estimation (abbr. FrSexEst) is a morphological method that utilizes cranial and mandibular traits to estimate the sex of individuals from the bony parts of their skulls.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#LabelForSex -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForSex">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000963"/>
+        <core1:description>The instances of this class are used as labels for instances of subclasses of SexScore and instances of EstimatingSexBasedOnDegreeOfSexualization (= drawing a conclusion).
+They denote the appearance of traits that a researcher evaluated or denote the sex of an individual that was estimated based on the DegreeOfSexualization.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Plan.FrSexEst -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Plan.FrSexEst">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000260"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialSpecification.FrSexEst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesignExecution.FrSexEst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrSexEst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>For each FrSexEst investigation, an instance of Plan.FrSexEst is created.
+The Plan.FrSexEst contains all information on how the StudyDesign.FrSexEst is applied to the material in this single investigation.
+A detailed plan contributes substantially to the transperancy of an investigation and increases its repeatability. It is especially useful, since the StudyDesign.FrSexEst leaves some decisions open to the researcher and is highly recommended if decisions are made different than suggested in StudyDesign.FrSexEst.</core1:description>
+        <core1:description>Here are some points left open by StudyDesignFrSexEst plus examples of plan specifications:
+
+The researcher may specify precisely what material is included in the sample, i.e. selected as specimen, before the work on the material begins. For example: &quot;Skulls are included in the sample if more than 10 cranial and mandibular traits can be evaluated.&quot;
+The reseacher may specify precisely how the assays are carried out in this investigation. For example: &quot;The mastoid process, especially its height and breadth, is evaluated from a lateral perspective.&quot;
+The researcher may specify how to draw a conclusion based on the DegreeOfSexualization. For example: &quot;Conclusions are regarded as expert judgements and comments are added to describe the conclusions in detail.&quot;</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Planning.FrSexEst -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Planning.FrSexEst">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000339"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrSexEst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>For each FrSexEst investigation that is carried out, an instance of Planning.FrSexEst is created. Comments may be added to Planning.FrSexEst to document all disussions, preparations etc. which were performed before researchers agreed on carrying out an FrSexEst investigation.</core1:description>
+        <core1:description>Planning.FrSexEst has in contrast to other investigation planning processes no testable hypothesis as input since the process of estimating the sex of an individual can be undertaken without testing any hypothesis.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForSex"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.ExternalOccipitalProtuberance -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.ExternalOccipitalProtuberance">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.FrontalAndParietalEminences -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.FrontalAndParietalEminences">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Glabella -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Glabella">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.GonialAngle -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.GonialAngle">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MandibleAsAWhole -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MandibleAsAWhole">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MastoidProcess -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MastoidProcess">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MentalProtuberance -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MentalProtuberance">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MylohyoidLine -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.MylohyoidLine">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.NuchalPlanum -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.NuchalPlanum">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.OrbitalAperture -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.OrbitalAperture">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.SuperciliaryArch -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.SuperciliaryArch">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.SupramastoidCrest -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.SupramastoidCrest">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.ZygomaticProcess -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.ZygomaticProcess">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Zygomatics -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore.Zygomatics">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialSpecification.FrSexEst -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialSpecification.FrSexEst">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialSpecification"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventory"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A class technically required for the automatic prescreening of potential specimen.
+The class which SkeletalMaterialSpecification.FrSexEst is about defines the range within which the software searches for potential specimens. As default, &quot;Skeletal inventory&quot; is chosen. Thus, all skeletal inventories, i.e. all the material within a collection, is screened. By defining subclasses of &apos;Skeletal inventory&apos; and selecting one or more of these, the range of the prescreening procedure can be adjusted.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ExternalOccipitalProtuberance -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ExternalOccipitalProtuberance">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrontalAndParietalEminences -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrontalAndParietalEminences">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.Glabella -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.Glabella">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.GonialAngle -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.GonialAngle">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MandibleAsAWhole -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MandibleAsAWhole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MastoidProcess -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MastoidProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MentalProtuberance -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MentalProtuberance">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MylohyoidLine -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MylohyoidLine">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.NuchalPlanum -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.NuchalPlanum">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.OrbitalAperture -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.OrbitalAperture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.SuperciliaryArch -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.SuperciliaryArch">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.SupramastoidCrest -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.SupramastoidCrest">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ZygomaticProcess -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ZygomaticProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.Zygomatics -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.Zygomatics">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ExternalOccipitalProtuberance -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ExternalOccipitalProtuberance">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ExternalOccipitalProtuberance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ExternalOccipitalProtuberance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrontalAndParietalEminences -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrontalAndParietalEminences">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrontalAndParietalEminences"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrontalAndParietalEminences"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Glabella -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Glabella">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.Glabella"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.Glabella"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.GonialAngle -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.GonialAngle">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.GonialAngle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.GonialAngle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MandibleAsAWhole -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MandibleAsAWhole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MandibleAsAWhole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MandibleAsAWhole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MastoidProcess -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MastoidProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MastoidProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MastoidProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MentalProtuberance -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MentalProtuberance">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MentalProtuberance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MentalProtuberance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MylohyoidLine -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MylohyoidLine">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MylohyoidLine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MylohyoidLine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.NuchalPlanum -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.NuchalPlanum">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.NuchalPlanum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.NuchalPlanum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OrbitalAperture -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OrbitalAperture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.OrbitalAperture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.OrbitalAperture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SuperciliaryArch -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SuperciliaryArch">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.SuperciliaryArch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SuperciliaryArch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SupramastoidCrest -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SupramastoidCrest">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.SupramastoidCrest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SupramastoidCrest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ZygomaticProcess -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ZygomaticProcess">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ZygomaticProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ZygomaticProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Zygomatics -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Zygomatics">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.Zygomatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.Zygomatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesignExecution.FrSexEst -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesignExecution.FrSexEst">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000471"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ExternalOccipitalProtuberance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrontalAndParietalEminences"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Glabella"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.GonialAngle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MandibleAsAWhole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MastoidProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalProtuberance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MylohyoidLine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.NuchalPlanum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.OrbitalAperture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SuperciliaryArch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SupramastoidCrest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ZygomaticProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Zygomatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DataTransformation.FrSexEst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ExternalOccipitalProtuberance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrontalAndParietalEminences"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Glabella"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.GonialAngle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MandibleAsAWhole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MastoidProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MentalProtuberance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MylohyoidLine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.NuchalPlanum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OrbitalAperture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SuperciliaryArch"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SupramastoidCrest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ZygomaticProcess"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Zygomatics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>For each individual&apos;s skull whose sex should be estimated, an instance of StudyDesignExecution.FrSexEst should be created.
+All assays which can be carried out on this skull have only material from this skull as input (=specimen). These assays are related to the corresponding instance of StudyDesignExecution.FrSexEst.
+Thus, an investigation which comprises sex estimations of several individuals will consist of a single instance of Investigation.FrSexEst and instances of StudyDesignExecution as to the number of individuals in the sample.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#complete -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/core#complete"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Acsadi_Nemeskeri_1970 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Acsadi_Nemeskeri_1970">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
+        <core1:description>Acsádi, György, and Janos Nemeskéri. &quot;History of human life span and mortality.&quot; Budapest: Acad. Kaido (1970).</core1:description>
+        <rdfs:label>Acsádi &amp; Nemeskéri 1970</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AlexanderEckerCollectionDataEntryForm -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AlexanderEckerCollectionDataEntryForm">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <core1:description>In the software version of FrSexEst, a PDF and csv version of the data entry form for the sex estimation of adults which was used in the sex estimation of skulls from the Alexander-Ecker-Collection Freiburg is attached to this instance.
+The data entry form can be downloaded from the GitHub page of FrSexEst alternatively.</core1:description>
+        <rdfs:label>AlexanderEckerCollectionDataEntryForm</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ExternalOccipitalProtuberance -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ExternalOccipitalProtuberance"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrSexEst.ZygomaticArch -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrSexEst.ZygomaticArch"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrontalAndParietalEminences -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrontalAndParietalEminences"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Glabella -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Glabella"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.GonialAngle -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.GonialAngle"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MandibleAsAWhole -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MandibleAsAWhole"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MastoidProcess -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MastoidProcess"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalProtuberance -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalProtuberance"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MylohyoidLine -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MylohyoidLine"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.NuchalPlanum -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.NuchalPlanum"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SuperciliaryArch -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SuperciliaryArch"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SupramastoidCrest -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SupramastoidCrest"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ZygomaticProcess -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ZygomaticProcess"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Zygomatics -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Zygomatics"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ExternalOccipitalProtuberance -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ExternalOccipitalProtuberance">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ExternalOccipitalProtuberance"/>
+        <core1:description>The External Occipital Protuberance should be scored according to Sjøvold 1988 (graph 168, b) viewed laterally (in norma lateralis).</core1:description>
+        <rdfs:label>AssaySpecification.ExternalOccipitalProtuberance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrontalAndParietalEminences -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrontalAndParietalEminences">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrontalAndParietalEminences"/>
+        <core1:description>Unfortunately, the exact procedure of scoring the Frontal and Parietal Eminences correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
+The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</core1:description>
+        <rdfs:label>AssaySpecification.FrontalAndParietalEminences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.Glabella -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.Glabella">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Glabella"/>
+        <core1:description>The Glabella should be scored according to Sjøvold 1988 (graph 168, a) viewed laterally (in norma lateralis).</core1:description>
+        <rdfs:label>AssaySpecification.Glabella</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.GonialAngle -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.GonialAngle">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.GonialAngle"/>
+        <core1:description>The Gonial Angle should be scored according to Sjøvold 1988 (graph 168, e) viewed laterally (in norma lateralis).</core1:description>
+        <rdfs:label>AssaySpecification.GonialAngle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MandibleAsAWhole -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MandibleAsAWhole">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MandibleAsAWhole"/>
+        <core1:description>Unfortunately, the exact procedure of scoring the appearance of the whole Mandible correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
+The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</core1:description>
+        <rdfs:label>AssaySpecification.MandibleAsAWhole</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MastoidProcess -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MastoidProcess">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MastoidProcess"/>
+        <core1:description>The Mastoid Process should be scored according to Sjøvold 1988 (graph 168, c) viewed dorsally (in norma occipitalis).</core1:description>
+        <rdfs:label>AssaySpecification.MastoidProcess</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MentalProtuberance -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MentalProtuberance">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalProtuberance"/>
+        <core1:description>The Metal Protuberance should be scored according to Sjøvold 1988 (graph 168, f) viewed frontally (in norma facialis).</core1:description>
+        <rdfs:label>AssaySpecification.MentalProtuberance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MylohyoidLine -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MylohyoidLine">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MylohyoidLine"/>
+        <core1:description>Unfortunately, the exact procedure of scoring the Mylohyoid Line correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
+The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</core1:description>
+        <rdfs:label>AssaySpecification.MylohyoidLine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.NuchalPlanum -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.NuchalPlanum">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.NuchalPlanum"/>
+        <core1:description>Unfortunately, the exact procedure of scoring the relief of the Nuchal Planum correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
+The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</core1:description>
+        <rdfs:label>AssaySpecification.NuchalPlanum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.OrbitalAperture -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.OrbitalAperture">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.OrbitalAperture"/>
+        <core1:description>The shape of the Orbital Aperture should be scored according to Sjøvold 1988 (graph 168, d) viewed frontally (in norma facialis).</core1:description>
+        <rdfs:label>AssaySpecification.OrbitalAperture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.SuperciliaryArch -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.SuperciliaryArch">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SuperciliaryArch"/>
+        <core1:description>Unfortunately, the exact procedure of scoring the Superciliary Arches correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
+The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</core1:description>
+        <rdfs:label>AssaySpecification.SuperciliaryArch</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.SupramastoidCrest -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.SupramastoidCrest">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SupramastoidCrest"/>
+        <core1:description>Unfortunately, the exact procedure of scoring the Supramastoid Crest correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
+The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</core1:description>
+        <rdfs:label>AssaySpecification.SupramastoidCrest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ZygomaticProcess -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ZygomaticProcess">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ZygomaticProcess"/>
+        <core1:description>Unfortunately, the exact procedure of scoring the Zygomatic Process correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
+The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</core1:description>
+        <rdfs:label>AssaySpecification.ZygomaticProcess</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.Zygomatics -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.Zygomatics">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Zygomatics"/>
+        <core1:description>Unfortunately, the exact procedure of scoring the shape of the Zygomatics correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
+The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</core1:description>
+        <rdfs:label>AssaySpecification.Zygomatics</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#DataTransformationObjective.FrSexEst -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DataTransformationObjective.FrSexEst">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
+        <core1:description>The DegreeOfSexualization is calculated from weighted means of SexScores. Thus, the DegreeOfSexualization may have the same value if all 14 assays were carried out or if only one assay was carried out.
+Many anthropologists, especially in continental Europe, share the following assumption: the more traits are evaluated, the more reliable is the sex estimation. Since you cannot tell from the DegreeOfSexualization alone how many traits were evaluated, the data transformation objective states that a data transformation may performed only in cases where a sufficient number of traits were evaluated (to ensure the reliability of the following conclusion based on the DegreeOfSexualization).
+Due to a lack of empirical evidence for a &quot;sufficient number of evaluated traits&quot;, the researcher may specify this precisely in the corresponding instance of Plan.FrSexEst.</core1:description>
+        <rdfs:label>DataTransformationObjective.FrSexEst</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#DegreeOfSexualization -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DegreeOfSexualization"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#EstimatedSex -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#EstimatedSex"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Female -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Female">
+        <rdfs:label>Female</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Feminine -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Feminine">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForSex"/>
+        <rdfs:label>Feminine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Ferembach_et_al_1979 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Ferembach_et_al_1979">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/AcademicArticle"/>
+        <rdfs:comment>Ferembach, Denise, Ilse Schwidetzky, and Milan Stloukal. &quot;Empfehlungen für die Alters- und Geschlechtsdiagnose am Skelett.(Recommandations pour le diagnostic de lâge et du sexe sur les squelettes).&quot; Homo Göttingen 30.2 (1979): 1-32.</rdfs:comment>
+        <rdfs:label>Ferembach et al. 1979</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Hyperfeminine -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Hyperfeminine">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForSex"/>
+        <rdfs:label>Hyperfeminine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Hypermasculine -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Hypermasculine">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForSex"/>
+        <rdfs:label>Hypermasculine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Indifferent -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Indifferent">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForSex"/>
+        <rdfs:label>Indifferent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Male -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Male">
+        <rdfs:label>Male</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Masculine -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Masculine">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForSex"/>
+        <rdfs:label>Masculine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexEstimation">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000067"/>
+        <core1:description>The estimation of the sex of an individual based on skeletal remains is a classical aim of anthropological investigations. It can be realized by evaluating different traits on different bony parts of the skeleton.
+All material and all traits (=assays) that can be used to estimate the sex of an individual based on skeletal remains are related to this instance and can easily be queried.</core1:description>
+        <rdfs:label>SexEstimation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SexScore -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.ExternalOccipitalProtuberance -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.ExternalOccipitalProtuberance">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ExternalOccipitalProtuberance"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.ExternalOccipitalProtuberance"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.ExternalOccipitalProtuberance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.FrontalAndParietalEminences -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.FrontalAndParietalEminences">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrontalAndParietalEminences"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrontalAndParietalEminences"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.FrontalAndParietalEminences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Glabella -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Glabella">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Glabella"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Glabella"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.Glabella</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.GonialAngle -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.GonialAngle">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.GonialAngle"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.GonialAngle"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.GonialAngle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MandibleAsAWhole -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MandibleAsAWhole">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MandibleAsAWhole"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MandibleAsAWhole"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.MandibleAsAWhole</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MastoidProcess -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MastoidProcess">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MastoidProcess"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MastoidProcess"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.MastoidProcess</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MentalProtuberance -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MentalProtuberance">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MentalProtuberance"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MentalProtuberance"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.MentalProtuberance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MylohyoidLine -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MylohyoidLine">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MylohyoidLine"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MylohyoidLine"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.MylohyoidLine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.NuchalPlanum -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.NuchalPlanum">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.NuchalPlanum"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.NuchalPlanum"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.NuchalPlanum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.OrbitalAperture -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.OrbitalAperture">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OrbitalAperture"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.OrbitalAperture"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.OrbitalAperture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.SuperciliaryArch -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.SuperciliaryArch">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SuperciliaryArch"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.SuperciliaryArch"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.SuperciliaryArch</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.SupramastoidCrest -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.SupramastoidCrest">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SupramastoidCrest"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.SupramastoidCrest"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.SupramastoidCrest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.ZygomaticProcess -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.ZygomaticProcess">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ZygomaticProcess"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.ZygomaticProcess"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.ZygomaticProcess</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Zygomatics -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Zygomatics">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Zygomatics"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Zygomatics"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.Zygomatics</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.FrSexEst -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.FrSexEst">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001892"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DegreeOfSexualization"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore"/>
+        <core1:description>In each FrSexEst investigation two types of data are generated. There is one SexScore for each assay, thus a maximum of 14 different SexScores per StudyDesignExecution.FrSexEst. These SexScores are transformed into one DegreeOfSexualization.</core1:description>
+        <rdfs:label>SpecificationOfDataToBeGeneratedInAnInvestigation.FrSexEst</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ExternalOccipitalProtuberance -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ExternalOccipitalProtuberance">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only complete occipital bones are potential Specimen.ExternalOccipitalProtuberance</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.ExternalOccipitalProtuberance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrontalAndParietalEminences -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrontalAndParietalEminences">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only a set of complete frontal and parietal bones is a potential Specimen.FrontalAndParietalEminences</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.FrontalAndParietalEminences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.Glabella -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.Glabella">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only complete frontal bones are potential Specimen.Glabella</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.Glabella</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.GonialAngle -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.GonialAngle">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only complete mandibles are potential Specimen.GonialAngle</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.GonialAngle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MandibleAsAWhole -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MandibleAsAWhole">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only complete mandibles are potential Specimen.MandibleAsAWhole</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.MandibleAsAWhole</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MastoidProcess -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MastoidProcess">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only complete temporal bones are potential Specimen.MastoidProcess</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.MastoidProcess</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MentalProtuberance -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MentalProtuberance">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only complete mandibles are potential Specimen.MentalProtuberance</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.MentalProtuberance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MylohyoidLine -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MylohyoidLine">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only complete mandibles are potential Specimen.MylohyoidLine</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.MylohyoidLine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.NuchalPlanum -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.NuchalPlanum">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only complete occipital bones are potential Specimen.NuchalPlanum</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.NuchalPlanum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.OrbitalAperture -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.OrbitalAperture">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only a set of complete frontal bone, complete zygomatics and complete maxillas is a potential Specimen.OrbitalAperture</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.OrbitalAperture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SuperciliaryArch -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SuperciliaryArch">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only complete frontal bones are potential Specimen.SuperciliaryArch</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.SuperciliaryArch</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SupramastoidCrest -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SupramastoidCrest">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only complete temporal bones are potential Specimen.SupramastoidCrest</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.SupramastoidCrest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ZygomaticProcess -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ZygomaticProcess">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only complete temporal bones are potential Specimen.ZyomaticProcess</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.ZygomaticProcess</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.Zygomatics -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.Zygomatics">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only complete zygomatics are potential Specimen.Zygomatics</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.Zygomatics</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ExternalOccipitalProtuberance -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ExternalOccipitalProtuberance"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrSexEst.ZygomaticArch -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrSexEst.ZygomaticArch"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrontalAndParietalEminences -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrontalAndParietalEminences"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Glabella -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Glabella"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.GonialAngle -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.GonialAngle"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MandibleAsAWhole -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MandibleAsAWhole"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MastoidProcess -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MastoidProcess"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MentalProtuberance -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MentalProtuberance"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MylohyoidLine -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MylohyoidLine"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.NuchalPlanum -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.NuchalPlanum"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OrbitalAperture -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OrbitalAperture"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SuperciliaryArch -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SuperciliaryArch"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SupramastoidCrest -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SupramastoidCrest"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ZygomaticProcess -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ZygomaticProcess"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Zygomatics -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Zygomatics"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrSexEst -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrSexEst">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AlexanderEckerCollectionDataEntryForm"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ExternalOccipitalProtuberance"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrontalAndParietalEminences"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.Glabella"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.GonialAngle"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MandibleAsAWhole"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MastoidProcess"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MentalProtuberance"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MylohyoidLine"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.NuchalPlanum"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.OrbitalAperture"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.SuperciliaryArch"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.SupramastoidCrest"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ZygomaticProcess"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.Zygomatics"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DataTransformationObjective.FrSexEst"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.ExternalOccipitalProtuberance"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.FrontalAndParietalEminences"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Glabella"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.GonialAngle"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MandibleAsAWhole"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MastoidProcess"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MentalProtuberance"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MylohyoidLine"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.NuchalPlanum"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.OrbitalAperture"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.SuperciliaryArch"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.SupramastoidCrest"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.ZygomaticProcess"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Zygomatics"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.FrSexEst"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ExternalOccipitalProtuberance"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrontalAndParietalEminences"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.Glabella"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.GonialAngle"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MandibleAsAWhole"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MastoidProcess"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MentalProtuberance"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MylohyoidLine"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.NuchalPlanum"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.OrbitalAperture"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SuperciliaryArch"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SupramastoidCrest"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ZygomaticProcess"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.Zygomatics"/>
+        <core1:description>The StudyDesign.FrSexEst brings together all the information that is necessary for carrying out a FrSexEst investigation: what material is suitable and how it is selected, how and what kind of data are collected and how data are transformed afterwards.
+Furthermore, the general StudyDesign.FrSexEst is concretized as a plan which specifies how the StudyDesign.FrSexEst is applied to the material in a single investigation.</core1:description>
+        <rdfs:label>StudyDesign.FrSexEst</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Uncertain -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Uncertain">
+        <rdfs:label>Uncertain</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.ExternalOccipitalProtuberance -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.ExternalOccipitalProtuberance">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.ExternalOccipitalProtuberance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrontalAndParietalEminences -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrontalAndParietalEminences">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.FrontalAndParietalEminences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Glabella -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Glabella">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.Glabella</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.GonialAngle -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.GonialAngle">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.GonialAngle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MandibleAsAWhole -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MandibleAsAWhole">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.MandibleAsAWhole</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MastoidProcess -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MastoidProcess">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.MastoidProcess</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MentalProtuberance -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MentalProtuberance">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.MentalProtuberance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MylohyoidLine -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MylohyoidLine">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.MylohyoidLine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.NuchalPlanum -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.NuchalPlanum">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.NuchalPlanum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.OrbitalAperture -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.OrbitalAperture">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.OrbitalAperture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.SuperciliaryArch -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.SuperciliaryArch">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.SuperciliaryArch</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.SupramastoidCrest -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.SupramastoidCrest">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.SupramastoidCrest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.ZygomaticProcess -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.ZygomaticProcess">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.ZygomaticProcess</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Zygomatics -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Zygomatics">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.Zygomatics</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#White_&amp;_Folkens_2005 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#White_&amp;_Folkens_2005">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
+        <core1:description>White, Tim D., and Pieter A. Folkens. The human bone manual. Academic Press, 2005.</core1:description>
+        <rdfs:label>White &amp; Folkens 2005</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ExternalOccipitalProtuberance">
+        <core1:description>The External Occipital Protuberance should be scored according to Sjøvold 1988 (graph 168, b) viewed laterally (in norma lateralis).
+These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
+
+Hyperfeminine: very weak
+
+Feminine: weak
+
+Indifferent: medium
+
+Masculine: strong
+
+Hypermasculine: very strong</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrontalAndParietalEminences">
+        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
+
+Hyperfeminine: accentuated
+
+Feminine: slightly accentuated
+
+Indifferent: medium
+
+Masculine: weak
+
+Hypermasculine: absent</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Glabella">
+        <core1:description>The Glabella should be scored according to Sjøvold 1988 (graph 168, a) viewed laterally (in norma lateralis).
+These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
+
+Hyperfeminine: very weak
+
+Feminine: slightly accentuated
+
+Indifferent: medium
+
+Masculine: accentuated
+
+Hypermasculine: very strong</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.GonialAngle">
+        <core1:description>The Gonial Angle should be scored according to Sjøvold 1988 (graph 168, e) viewed laterally (in norma lateralis).
+These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
+
+Hyperfeminine: smooth
+
+Feminine: almost smooth
+
+Indifferent: small protrusions
+
+Masculine: protrusions
+
+Hypermasculine: strong protrusions</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MandibleAsAWhole">
+        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
+
+Hyperfeminine: gracile
+
+Feminine: moderately gracile
+
+Indifferent: medium
+
+Masculine: firm
+
+Hypermasculine: very firm</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MastoidProcess">
+        <core1:description>The Mastoid Process should be scored according to Sjøvold 1988 (graph 168, c) viewed dorsally (in norma occipitalis).
+These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
+
+Hyperfeminine: very small
+
+Feminine: small
+
+Indifferent: medium
+
+Masculine: large
+
+Hypermasculine: very large</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalProtuberance">
+        <core1:description>The Metal Protuberance should be scored according to Sjøvold 1988 (graph 168, f) viewed frontally (in norma facialis).
+These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
+
+Hyperfeminine: small, rounded
+
+Feminine: small
+
+Indifferent: medium
+
+Masculine: firm
+
+Hypermasculine: firm, with protuberances bilaterally</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MylohyoidLine">
+        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
+
+Hyperfeminine: thin
+
+Feminine: thin
+
+Indifferent: medium
+
+Masculine: thick
+
+Hypermasculine: thick</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.NuchalPlanum">
+        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
+
+Hyperfeminine: absent
+
+Feminine: weak
+
+Indifferent: medium
+
+Masculine: strong
+
+Hypermasculine: very strong</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SuperciliaryArch">
+        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
+
+Hyperfeminine: very weak
+
+Feminine: slightly accentuated
+
+Indifferent: medium
+
+Masculine: accentuated
+
+Hypermasculine: very strong</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SupramastoidCrest">
+        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
+
+Hyperfeminine: very weak
+
+Feminine: weak
+
+Indifferent: medium
+
+Masculine: strong
+
+Hypermasculine: very strong</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ZygomaticProcess">
+        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
+
+Hyperfeminine: small, thin
+
+Feminine: moderate
+
+Indifferent: medium
+
+Masculine: large, firm
+
+Hypermasculine: very large, firm</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Zygomatics">
+        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
+
+Hyperfeminine: very small, smooth
+
+Feminine: small, smooth
+
+Indifferent: medium, irregular surface
+
+Masculine: large, irregular surface
+
+Hypermasculine: very large, irregular surface</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DegreeOfSexualization">
+        <core1:description>The DegreeOfSexualization is the outcome of the DataTransformation.FrSexEst.
+According to the DataTransformationObjective.FrSexEst, the DegreeOfSexualization is only calculated from weighted means of data items (SexScores) which were collected on a single skull.
+A DegreeOfSexualization calculated from data items collected from material that belongs to different individuals is meaningless.
+The DegreeOfSexualization is a rational number (therefore type xsd:float) ranging from-2 to +2.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SexScore">
+        <core1:description>The outcome of the assays that are used in a FrSexEst investigation is stored as a data item of the type SexScore. There exists a subclass of SexScore for each assay.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ExternalOccipitalProtuberance">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
+Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrontalAndParietalEminences">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
+Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Glabella">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
+Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.GonialAngle">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
+Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MandibleAsAWhole">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
+Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MastoidProcess">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
+Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MentalProtuberance">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
+Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MylohyoidLine">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
+Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.NuchalPlanum">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
+Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OrbitalAperture">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
+Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SuperciliaryArch">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
+Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SupramastoidCrest">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
+Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ZygomaticProcess">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
+Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Zygomatics">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
+Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+
