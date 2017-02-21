@@ -3995,7 +3995,7 @@ The data entry form can be downloaded from the GitHub page of FrSexEst alternati
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.ASB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.ASB"/>
         <rdfs:label>AssaySpecification.FrCranMetr.ASB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4051,7 +4051,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.CDL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.CDL"/>
         <rdfs:label>AssaySpecification.FrCranMetr.CDL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4061,7 +4061,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.DKB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.DKB"/>
         <rdfs:label>AssaySpecification.FrCranMetr.DKB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4071,7 +4071,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.EKB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.EKB"/>
         <rdfs:label>AssaySpecification.FrCranMetr.EKB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4081,7 +4081,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.FOB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.FOB"/>
         <rdfs:label>AssaySpecification.FrCranMetr.FOB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4091,7 +4091,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.FOL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.FOL"/>
         <rdfs:label>AssaySpecification.FrCranMetr.FOL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4101,7 +4101,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.FRC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.FRC"/>
         <rdfs:label>AssaySpecification.FrCranMetr.FRC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4111,7 +4111,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.GNI">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.GNI"/>
         <rdfs:label>AssaySpecification.FrCranMetr.GNI</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4121,7 +4121,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.GOG">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.GOG"/>
         <rdfs:label>AssaySpecification.FrCranMetr.GOG</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4142,7 +4142,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.HMF">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.HMF"/>
         <rdfs:label>AssaySpecification.FrCranMetr.HMF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4175,7 +4175,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.MAN">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MAN"/>
         <rdfs:label>AssaySpecification.FrCranMetr.MAN</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4185,7 +4185,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.MDH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MDH"/>
         <rdfs:label>AssaySpecification.FrCranMetr.MDH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4195,7 +4195,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.MLN">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MLN"/>
         <rdfs:label>AssaySpecification.FrCranMetr.MLN</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4205,7 +4205,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.MOW">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MOW"/>
         <rdfs:label>AssaySpecification.FrCranMetr.MOW</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4239,7 +4239,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.OBB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.OBB"/>
         <rdfs:label>AssaySpecification.FrCranMetr.OBB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4249,7 +4249,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.OBH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.OBH"/>
         <rdfs:label>AssaySpecification.FrCranMetr.OBH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4259,7 +4259,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.OCC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.OCC"/>
         <rdfs:label>AssaySpecification.FrCranMetr.OCC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4269,7 +4269,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.PAC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.PAC"/>
         <rdfs:label>AssaySpecification.FrCranMetr.PAC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4279,7 +4279,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.TMF">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.TMF"/>
         <rdfs:label>AssaySpecification.FrCranMetr.TMF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4324,7 +4324,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.WRB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.WRB"/>
         <rdfs:label>AssaySpecification.FrCranMetr.WRB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4346,7 +4346,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.XRH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.XRH"/>
         <rdfs:label>AssaySpecification.FrCranMetr.XRH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -4356,7 +4356,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.ZMB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.ZMB"/>
         <rdfs:label>AssaySpecification.FrCranMetr.ZMB</rdfs:label>
     </owl:NamedIndividual>
     
