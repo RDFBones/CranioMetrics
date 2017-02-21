@@ -3349,7 +3349,7 @@ Due to a lack of empirical evidence for a &quot;sufficient number of evaluated t
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.ASB">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.ASB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.ASB"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.ASB</rdfs:label>
     </owl:NamedIndividual>
@@ -3412,7 +3412,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.CDL">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.CDL"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.CDL"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.CDL</rdfs:label>
     </owl:NamedIndividual>
@@ -3423,7 +3423,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.DKB">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.DKB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.DKB"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.DKB</rdfs:label>
     </owl:NamedIndividual>
@@ -3434,7 +3434,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.EKB">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.EKB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.EKB"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.EKB</rdfs:label>
     </owl:NamedIndividual>
@@ -3445,7 +3445,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.FOB">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.FOB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.FOB"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.FOB</rdfs:label>
     </owl:NamedIndividual>
@@ -3456,7 +3456,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.FOL">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.FOL"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.FOL"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.FOL</rdfs:label>
     </owl:NamedIndividual>
@@ -3467,7 +3467,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.FRC">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.FRC"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.FRC"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.FRC</rdfs:label>
     </owl:NamedIndividual>
@@ -3478,7 +3478,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.GNI">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.GNI"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.GNI"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.GNI</rdfs:label>
     </owl:NamedIndividual>
@@ -3489,7 +3489,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.GOG">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.GOG"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.GOG"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.GOG</rdfs:label>
     </owl:NamedIndividual>
@@ -3513,7 +3513,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.HMF">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.HMF"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.HMF"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.HMF</rdfs:label>
     </owl:NamedIndividual>
@@ -3550,7 +3550,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.MAN">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.MAN"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.MAN"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.MAN</rdfs:label>
     </owl:NamedIndividual>
@@ -3561,7 +3561,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.MDH">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.MDH"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.MDH"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.MDH</rdfs:label>
     </owl:NamedIndividual>
@@ -3572,7 +3572,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.MLN">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.MLN"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.MLN"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.MLN</rdfs:label>
     </owl:NamedIndividual>
@@ -3583,7 +3583,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.MOW">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.MOW"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.MOW"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.MOW</rdfs:label>
     </owl:NamedIndividual>
@@ -3620,7 +3620,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.OBB">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.OBB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.OBB"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.OBB</rdfs:label>
     </owl:NamedIndividual>
@@ -3631,7 +3631,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.OBH">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.OBH"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.OBH"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.OBH</rdfs:label>
     </owl:NamedIndividual>
@@ -3642,7 +3642,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.OCC">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.OCC"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.OCC"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.OCC</rdfs:label>
     </owl:NamedIndividual>
@@ -3653,7 +3653,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.PAC">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.PAC"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.PAC"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.PAC</rdfs:label>
     </owl:NamedIndividual>
@@ -3664,7 +3664,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.TMF">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.TMF"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.TMF"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.TMF</rdfs:label>
     </owl:NamedIndividual>
@@ -3714,7 +3714,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.WRB">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.WRB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.WRB"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.WRB</rdfs:label>
     </owl:NamedIndividual>
@@ -3738,7 +3738,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.XRH">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.XRH"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.XRH"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.XRH</rdfs:label>
     </owl:NamedIndividual>
@@ -3749,7 +3749,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.Craniometrics.ZMB">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Craniometrics.ZMB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.Craniometrics.ZMB"/>
         <rdfs:label>SkeletalMaterialRequirement.Craniometrics.ZMB</rdfs:label>
     </owl:NamedIndividual>
