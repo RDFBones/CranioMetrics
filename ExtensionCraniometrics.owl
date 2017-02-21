@@ -47,6 +47,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -6028,193 +6034,143 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.ASB">
+        <core1:description>Measured from one asterion to the other asterion.</core1:description>
+        <oboInOwl:hasExactSynonym>biasterion breadth</oboInOwl:hasExactSynonym>
+    </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.AUB">
-        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
-
-Hyperfeminine: absent
-
-Feminine: weak
-
-Indifferent: medium
-
-Masculine: strong
-
-Hypermasculine: very strong</core1:description>
+        <oboInOwl:hasExactSynonym>biauricular breadth</oboInOwl:hasExactSynonym>
+        <core1:description>Measured from one root of the zygomatic process to the other root of the zygomatic process.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.BBH">
-        <core1:description>The Gonial Angle should be scored according to Sjøvold 1988 (graph 168, e) viewed laterally (in norma lateralis).
-These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
-
-Hyperfeminine: smooth
-
-Feminine: almost smooth
-
-Indifferent: small protrusions
-
-Masculine: protrusions
-
-Hypermasculine: strong protrusions</core1:description>
+        <oboInOwl:hasExactSynonym>maximum cranial height</oboInOwl:hasExactSynonym>
+        <core1:description>Measured from the basion (ba) to the bregma (b).</core1:description>
+        <oboInOwl:hasExactSynonym>basion-bregma height</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.BNL">
-        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
-
-Hyperfeminine: gracile
-
-Feminine: moderately gracile
-
-Indifferent: medium
-
-Masculine: firm
-
-Hypermasculine: very firm</core1:description>
+        <core1:description>Measured from the basion (ba) to the nasion (n).</core1:description>
+        <oboInOwl:hasExactSynonym>cranial base length</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.BPL">
-        <core1:description>The Mastoid Process should be scored according to Sjøvold 1988 (graph 168, c) viewed dorsally (in norma occipitalis).
-These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
-
-Hyperfeminine: very small
-
-Feminine: small
-
-Indifferent: medium
-
-Masculine: large
-
-Hypermasculine: very large</core1:description>
+        <core1:description>Measured from the basion (ba) to the prosthion (pr).</core1:description>
+        <oboInOwl:hasExactSynonym>basion-prosthion length</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.CDL">
+        <core1:description>Measured from one condylion to the other condylion.</core1:description>
+        <oboInOwl:hasExactSynonym>bicondylar breadth</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.DKB">
+        <oboInOwl:hasExactSynonym>interorbital breadth</oboInOwl:hasExactSynonym>
+        <core1:description>Measured from one dacryon (d) to the other dacryon (d).</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.EKB">
+        <oboInOwl:hasExactSynonym>biorbital breadth</oboInOwl:hasExactSynonym>
+        <core1:description>Measured from one ectoconchion (ec) to the other ectoconchion (ec).</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.FOB">
+        <core1:description>Measured from the one most lateral point of the foramen magnum to the other most lateral point of the foramen magnum.</core1:description>
+        <oboInOwl:hasExactSynonym>foramen magnum breadth</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.FOL">
+        <core1:description>Measured from the opisthion (o) to the basion (ba).</core1:description>
+        <oboInOwl:hasExactSynonym>foramen magnum length</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.FRC">
+        <core1:description>Measured from the nasion (n) to the bregma (b).</core1:description>
+        <oboInOwl:hasExactSynonym>frontal chord</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.GNI">
+        <core1:description>Measured from the gnathion to the infradentale.</core1:description>
+        <oboInOwl:hasExactSynonym>chin height</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.GOG">
+        <oboInOwl:hasExactSynonym>bigonial breadth</oboInOwl:hasExactSynonym>
+        <core1:description>Measured from one gonion to the other gonion.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.GOL">
-        <core1:description>The External Occipital Protuberance should be scored according to Sjøvold 1988 (graph 168, b) viewed laterally (in norma lateralis).
-These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
-
-Hyperfeminine: very weak
-
-Feminine: weak
-
-Indifferent: medium
-
-Masculine: strong
-
-Hypermasculine: very strong</core1:description>
+        <core1:description>Measured from the glabella (g) to the opisthocranion (op).</core1:description>
+        <oboInOwl:hasExactSynonym>maximum cranial length</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.HMF">
+        <oboInOwl:hasExactSynonym>body height at mental foramen</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MAB">
-        <core1:description>The Metal Protuberance should be scored according to Sjøvold 1988 (graph 168, f) viewed frontally (in norma facialis).
-These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
-
-Hyperfeminine: small, rounded
-
-Feminine: small
-
-Indifferent: medium
-
-Masculine: firm
-
-Hypermasculine: firm, with protuberances bilaterally</core1:description>
+        <oboInOwl:hasExactSynonym>maxillo-alveolar breadth</oboInOwl:hasExactSynonym>
+        <core1:description>Measured from one ectomolare (ecm) to the other ectomolare (ecm).</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MAL">
-        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
-
-Hyperfeminine: thin
-
-Feminine: thin
-
-Indifferent: medium
-
-Masculine: thick
-
-Hypermasculine: thick</core1:description>
+        <oboInOwl:hasExactSynonym>maxillo-alveolar length</oboInOwl:hasExactSynonym>
+        <core1:description>Measured from the prosthion (pr) to the alveolon (al).</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MAN">
+        <oboInOwl:hasExactSynonym>mandible angle</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MDH">
+        <oboInOwl:hasExactSynonym>mastoid length</oboInOwl:hasExactSynonym>
+        <core1:description>Measured from the porion to the mastoidale.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MLN">
+        <oboInOwl:hasExactSynonym>mandible length</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MOW">
+        <oboInOwl:hasExactSynonym>mid-orbital width</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.NLB">
-        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
-
-Hyperfeminine: very small, smooth
-
-Feminine: small, smooth
-
-Indifferent: medium, irregular surface
-
-Masculine: large, irregular surface
-
-Hypermasculine: very large, irregular surface</core1:description>
+        <core1:description>Measured from one alare (al) to the other alare (al).</core1:description>
+        <oboInOwl:hasExactSynonym>nasal breadth</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.NLH">
-        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
-
-Hyperfeminine: small, thin
-
-Feminine: moderate
-
-Indifferent: medium
-
-Masculine: large, firm
-
-Hypermasculine: very large, firm</core1:description>
+        <core1:description>Measured from the nasion (n) to the nasospinale (ns).</core1:description>
+        <oboInOwl:hasExactSynonym>nasal height</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.OBB">
+        <oboInOwl:hasExactSynonym>orbital breadth</oboInOwl:hasExactSynonym>
+        <core1:description>Measured from the dacryon (d) to the ectoconchion (ec).</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.OBH">
+        <core1:description>Measured from the superior margin to the inferior margin.</core1:description>
+        <oboInOwl:hasExactSynonym>orbital height</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.OCC">
+        <oboInOwl:hasExactSynonym>occipital chord</oboInOwl:hasExactSynonym>
+        <core1:description>Measured from the lambda (l) to the opisthion (o).</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.PAC">
+        <core1:description>Measured from the bregma (b) to the lambda (l).</core1:description>
+        <oboInOwl:hasExactSynonym>parietal chord</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.TMF">
+        <oboInOwl:hasExactSynonym>body thickness at mental foramen</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.UFBR">
-        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
-
-Hyperfeminine: very weak
-
-Feminine: weak
-
-Indifferent: medium
-
-Masculine: strong
-
-Hypermasculine: very strong</core1:description>
+        <oboInOwl:hasExactSynonym>upper facial breadth</oboInOwl:hasExactSynonym>
+        <core1:description>Measured from one fronto-zygomatic suture to the other fronto-zygomatic suture.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.UFHT">
-        <core1:description>The shape of the Orbital Aperture should be scored according to Sjøvold 1988 (graph 168, d) viewed frontally (in norma facialis).
-These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
-
-Hyperfeminine: round
-
-Feminine: round
-
-Indifferent: medium
-
-Masculine: slightly quadrangular
-
-Hypermasculine: quadrangular</core1:description>
+        <core1:description>Measured from the nasion (n) to the prosthion (pr).</core1:description>
+        <oboInOwl:hasExactSynonym>upper facial height</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.WFB">
-        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
-
-Hyperfeminine: very weak
-
-Feminine: slightly accentuated
-
-Indifferent: medium
-
-Masculine: accentuated
-
-Hypermasculine: very strong</core1:description>
+        <core1:description>Measured from one fronto-temporale (ft) to the other fronto-temporale (ft).</core1:description>
+        <oboInOwl:hasExactSynonym>minimum frontal breadth</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.WRB">
+        <oboInOwl:hasExactSynonym>minimum ramus breadth</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.XCB">
-        <core1:description>These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
-
-Hyperfeminine: accentuated
-
-Feminine: slightly accentuated
-
-Indifferent: medium
-
-Masculine: weak
-
-Hypermasculine: absent</core1:description>
+        <core1:description>Measured from one euryon (eu) to the other euryon (eu).</core1:description>
+        <oboInOwl:hasExactSynonym>maximum cranial breadth</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.XRH">
+        <oboInOwl:hasExactSynonym>maximum ramus height</oboInOwl:hasExactSynonym>
+        <core1:description>Measured from the gonion to the superior condylar surface.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.ZMB">
+        <oboInOwl:hasExactSynonym>zygomaxillary breadth</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.ZYB">
-        <core1:description>The Craniometrics.ZYB should be scored according to Sjøvold 1988 (graph 168, a) viewed laterally (in norma lateralis).
-These indications of the appearances of the respective trait (translated from Ferembach et al. 1979, table 2) may guide the reseachers evaluation:
-
-Hyperfeminine: very weak
-
-Feminine: slightly accentuated
-
-Indifferent: medium
-
-Masculine: accentuated
-
-Hypermasculine: very strong</core1:description>
+        <core1:description>Measured from one zygion (zy) to the other zygion (zy).</core1:description>
+        <oboInOwl:hasExactSynonym>bizygomatic breadth</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement">
         <core1:description>The outcome of the assays that are used in a FrSexEst investigation is stored as a data item of the type SkullMeasurement. There exists a subclass of SkullMeasurement for each assay.</core1:description>
