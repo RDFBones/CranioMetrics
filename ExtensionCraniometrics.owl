@@ -20,7 +20,16 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst"/>
+    <owl:Ontology rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst">
+        <owl:imports rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
+        <owl:imports rdf:resource="http://vivoweb.org/ontology/core"/>
+        <owl:imports rdf:resource="http://w3id.org/rdfbones/patches/obo-fma-patch"/>
+        <owl:imports rdf:resource="http://w3id.org/rdfbones/core"/>
+        <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/fma/releases/2016-02-09/fma.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/"/>
+        <owl:imports rdf:resource="http://purl.org/ontology/bibo/"/>
+    </owl:Ontology>
     
 
 
@@ -32,6 +41,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     
 
 
@@ -50,6 +65,18 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
     
 
 
@@ -144,6 +171,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/fma#bounds -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/fma#bounds"/>
+    
+
+
     <!-- http://w3id.org/rdfbones/core#isDepicted -->
 
     <owl:ObjectProperty rdf:about="http://w3id.org/rdfbones/core#isDepicted"/>
@@ -184,9 +217,1198 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FMA_264279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264279</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mentale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264279"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264280</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right mentale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264283</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9658"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical cranial point</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cranial osteometric point</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264284</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical point of skull</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264686">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264279"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264686</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left mentale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264687">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_76626"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264687</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left gonion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264688">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_76626"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264688</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right gonion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264689">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264283"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264689</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left coronion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264690">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264283"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264690</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right coronion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264691">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264691</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condylion mediale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264692">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264691"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264692</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left condylion mediale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264693">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264691"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264693</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right condylion mediale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264694">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264695">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264694"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264695</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left condylion laterale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264696">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264694"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264696</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right condylion laterale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264697">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264697</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endomolare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264698">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264697"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264698</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left endomolare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264699">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264697"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264699</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right endomolare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264700">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264701">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264700"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264701</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left ectomolare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264702">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264700"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264702</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right ectomolare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264703">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264704">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264703"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264704</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left mastoidale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264705">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264703"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264705</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right mastoidale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264706">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_76625"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264706</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left asterion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264707">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_76625"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264707</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right asterion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264708 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264708">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264708</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Auriculare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264708"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264709</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left auriculare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264710">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264708"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264710</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right auriculare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264711">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264712">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264711"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264712</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left porion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264713 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264713">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264711"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264713</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right porion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264714">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264715">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264714"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264715</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left euryon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264714"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264716</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right euryon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264717">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264717</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264718">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264717"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264718</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left coronale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264719">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264717"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264719</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right coronale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264720">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264720</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pterion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264721 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264721">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264720"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264721</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left pterion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264722 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264722">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264720"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264722</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right pterion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264723">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264723</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stephanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264724">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264723"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264724</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left stephanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264725">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264723"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264725</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right stephanion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264726 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264726">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264727">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264726"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264727</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left frontotemporale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264728">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264726"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264728</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right frontotemporale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264729">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264729</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frontomalare temporale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264730">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264729"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264730</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left frontomalare temporale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264731 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264731">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264729"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264731</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right frontomalare temporale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264732 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264732">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264732</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frontomalare orbitale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264733 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264733">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264732"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264733</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left frontomalare orbitale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264734 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264734">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264732"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264734</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right frontomalare orbitale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264735">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264735</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zygoorbitale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264736">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264735"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264736</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left zygoorbitale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264737">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264735"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264737</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right zygoorbitale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264738">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264739 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264739">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264738"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264739</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left dacryon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264740">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264738"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264740</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right dacryon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264741">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264741</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lacrimale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264742">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264741"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264742</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left lacrimale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264743">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264741"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264743</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right lacrimale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264744">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264744</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maxillofrontale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264745">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264744"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264745</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left maxillofrontale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264746 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264746">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264744"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264746</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right maxillofrontale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264747">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264748">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264747"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264748</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left ectoconchion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264749 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264749">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264747"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264749</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right ectoconchion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264750">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264750</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jugale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264751">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264750"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264751</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left jugale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264752">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264750"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264752</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right jugale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264753">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264754">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264753"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264754</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left zygion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264755">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264753"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264755</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right zygion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264756">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264756</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orbitale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264757 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264757">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264756"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264757</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left orbitale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264758 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264758">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264756"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264758</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right orbitale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264759">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264760 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264760">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264759"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264760</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left alare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264761 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264761">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264759"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264761</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right alare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264762">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264762</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zygomaxillare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264763">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264762"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264763</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left zygomaxillare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264764">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264762"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264764</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right zygomaxillare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264765">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264766 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264766">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264766</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pogonion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264767">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264767</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264768 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264768">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264769 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264769">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264769</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staphylion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264770 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264770">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264770</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hormion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264771 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264771">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264771</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sphenobasion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264772">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264773 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264773">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264774 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264774">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264774</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obelion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264775">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264775</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cranial apex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264776 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264776">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264777 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264777">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264777</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metopion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264778 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264778">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264779 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264779">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264780">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264780</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhinion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264781 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264781">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264782 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264782">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264783 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264783">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical cranial point which is midline at the inferior tip of the bony septum between the upper central incisors.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264783</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alveolare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264784 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264784">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical cranial point where the upper central incisors meet at the occlusal surface.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cranial osteometric incision</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Incision</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264784</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cranial incision point</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_46484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46484">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Top of head</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertex of head</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:46484</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertex</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FMA_46565 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_46565"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_50705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_50705">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67112"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immaterial anatomical entity of one less dimension than the anatomical entity it bounds or demarcates from another anatomical entity. Examples: surface of heart, surface of epithelial cell, cervicothoracic plane, supra-orbital notch, costal margin, apex beat, Sylvian point.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:50705</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical boundary entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_61775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_61775"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_67112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_61775"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical anatomical entity which is a three-dimensional space, surface, line or point associated with a material anatomical entity. Examples: body space, surface of heart, costal margin, apex of right lung, anterior compartment of right arm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immaterial physical anatomical entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:67112</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immaterial anatomical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_75743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_75743">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_75744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_75744">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_76624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_76624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:76624</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_76625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_76625">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_76626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_76626">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_9658 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9658">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_50705"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical boundary entity which has zero spatial dimension. Examples: Apex of lung, vertex of head, McBurney&apos;s point.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9658</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical point</rdfs:label>
+    </owl:Class>
     
 
 
@@ -3896,6 +5118,150 @@ Thus, an investigation which comprises sex estimations of several individuals wi
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FMA_264285 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264285"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264694 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264694"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264700 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264700"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264703 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264703"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264711 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264711"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264714 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264714"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264726 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264726"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264738 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264738"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264747 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264747"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264753 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264753"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264759 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264759"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264765 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264765"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264768 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264768"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264772 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264772"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264773 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264773"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264776 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264776"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264778 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264778"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264779 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264779"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264781 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264781"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_264782 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_264782"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_75743 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_75743"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_75744 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_75744"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_76625 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_76625"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_76626 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/FMA_76626"/>
+    
+
+
     <!-- http://w3id.org/rdfbones/core#complete -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/core#complete"/>
@@ -4122,6 +5488,7 @@ Thus, an investigation which comprises sex estimations of several individuals wi
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.ASB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_76625"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.ASB"/>
         <rdfs:label>AssaySpecification.FrCranMetr.ASB</rdfs:label>
     </owl:NamedIndividual>
@@ -4144,6 +5511,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.BBH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264776"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_75743"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.BBH"/>
         <core1:description>The Gonial Angle should be scored according to Sjøvold 1988 (graph 168, e) viewed laterally (in norma lateralis).</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.BBH</rdfs:label>
@@ -4155,6 +5524,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.BNL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264779"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_75743"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.BNL"/>
         <core1:description>Unfortunately, the exact procedure of scoring the appearance of the whole Mandible correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
 The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</core1:description>
@@ -4167,6 +5538,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.BPL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264782"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_75743"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.BPL"/>
         <core1:description>The Mastoid Process should be scored according to Sjøvold 1988 (graph 168, c) viewed dorsally (in norma occipitalis).</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.BPL</rdfs:label>
@@ -4178,6 +5551,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.CDL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264694"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.CDL"/>
         <rdfs:label>AssaySpecification.FrCranMetr.CDL</rdfs:label>
     </owl:NamedIndividual>
@@ -4188,6 +5562,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.DKB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264738"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.DKB"/>
         <rdfs:label>AssaySpecification.FrCranMetr.DKB</rdfs:label>
     </owl:NamedIndividual>
@@ -4198,6 +5573,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.EKB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264747"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.EKB"/>
         <rdfs:label>AssaySpecification.FrCranMetr.EKB</rdfs:label>
     </owl:NamedIndividual>
@@ -4218,6 +5594,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.FOL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_75743"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_75744"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.FOL"/>
         <rdfs:label>AssaySpecification.FrCranMetr.FOL</rdfs:label>
     </owl:NamedIndividual>
@@ -4228,6 +5606,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.FRC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264776"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264779"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.FRC"/>
         <rdfs:label>AssaySpecification.FrCranMetr.FRC</rdfs:label>
     </owl:NamedIndividual>
@@ -4238,6 +5618,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.GNI">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264765"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264768"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.GNI"/>
         <rdfs:label>AssaySpecification.FrCranMetr.GNI</rdfs:label>
     </owl:NamedIndividual>
@@ -4248,6 +5630,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.GOG">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_76626"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.GOG"/>
         <rdfs:label>AssaySpecification.FrCranMetr.GOG</rdfs:label>
     </owl:NamedIndividual>
@@ -4258,6 +5641,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.GOL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264772"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264778"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.GOL"/>
         <core1:description>The External Occipital Protuberance should be scored according to Sjøvold 1988 (graph 168, b) viewed laterally (in norma lateralis).</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.GOL</rdfs:label>
@@ -4279,6 +5664,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.MAB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264700"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MAB"/>
         <core1:description>The Metal Protuberance should be scored according to Sjøvold 1988 (graph 168, f) viewed frontally (in norma facialis).</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.MAB</rdfs:label>
@@ -4290,6 +5676,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.MAL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264285"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264782"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MAL"/>
         <core1:description>Unfortunately, the exact procedure of scoring the Mylohyoid Line correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
 The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</core1:description>
@@ -4312,6 +5700,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.MDH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264703"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264711"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MDH"/>
         <rdfs:label>AssaySpecification.FrCranMetr.MDH</rdfs:label>
     </owl:NamedIndividual>
@@ -4342,6 +5732,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.NLB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264759"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.NLB"/>
         <core1:description>Unfortunately, the exact procedure of scoring the shape of the Craniometrics.NLB correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
 The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</core1:description>
@@ -4354,6 +5745,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.NLH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264779"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264781"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.NLH"/>
         <core1:description>Unfortunately, the exact procedure of scoring the Zygomatic Process correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
 The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</core1:description>
@@ -4366,6 +5759,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.OBB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264738"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264747"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.OBB"/>
         <rdfs:label>AssaySpecification.FrCranMetr.OBB</rdfs:label>
     </owl:NamedIndividual>
@@ -4386,6 +5781,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.OCC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264773"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_75744"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.OCC"/>
         <rdfs:label>AssaySpecification.FrCranMetr.OCC</rdfs:label>
     </owl:NamedIndividual>
@@ -4396,6 +5793,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.PAC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264773"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264776"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.PAC"/>
         <rdfs:label>AssaySpecification.FrCranMetr.PAC</rdfs:label>
     </owl:NamedIndividual>
@@ -4428,6 +5827,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.UFHT">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264779"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264782"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.UFHT"/>
         <core1:description>The shape of the Orbital Aperture should be scored according to Sjøvold 1988 (graph 168, d) viewed frontally (in norma facialis).</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.UFHT</rdfs:label>
@@ -4439,6 +5840,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.WFB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264726"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.WFB"/>
         <core1:description>Unfortunately, the exact procedure of scoring the Superciliary Arches correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
 The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</core1:description>
@@ -4461,6 +5863,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.XCB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264714"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.XCB"/>
         <core1:description>Unfortunately, the exact procedure of scoring the Frontal and Parietal Eminences correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
 The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</core1:description>
@@ -4473,6 +5876,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.XRH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_76626"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.XRH"/>
         <rdfs:label>AssaySpecification.FrCranMetr.XRH</rdfs:label>
     </owl:NamedIndividual>
@@ -4493,6 +5897,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.ZYB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264753"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.ZYB"/>
         <core1:description>The Craniometrics.ZYB should be scored according to Sjøvold 1988 (graph 168, a) viewed laterally (in norma lateralis).</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.ZYB</rdfs:label>
@@ -5638,6 +7043,18 @@ Furthermore, the general StudyDesign.FrCranMetr is concretized as a plan which s
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Test -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Test"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Test2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Test2"/>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.ASB -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.ASB">
@@ -6034,6 +7451,129 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264285">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264285</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alveolon</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264694">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264694</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condylion laterale</rdfs:label>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264700">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ectomolare</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264700</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264703">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264703</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mastoidale</rdfs:label>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264711">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porion</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264711</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264714">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264714</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euryon</rdfs:label>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264726">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264726</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frontotemporale</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264738">
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dacryon</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264738</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264747">
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ectoconchion</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264747</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264753">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264753</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zygion</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264759">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alare</rdfs:label>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264759</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264765">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264765</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infradentale</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264768">
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gnathion</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264768</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264772">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opisthocranion</rdfs:label>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264772</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264773">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lambda</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264773</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264776">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264776</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical cranial point  where the coronal and sagittal suture lines intersect.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bregma</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264778">
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glabella (point)</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264778</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264779">
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nasion</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264779</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264781">
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264781</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nasospinale</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264782">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264782</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prosthion</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_75743">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:75743</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basion of foramen magnum</rdfs:label>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foramen magnum basion</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_75744">
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foramen magnum opisthion</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opisthion of foramen magnum</rdfs:label>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:75744</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_76625">
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:76625</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asterion</rdfs:label>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_76626">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gonion</rdfs:label>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:76626</oboInOwl:id>
+    </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.ASB">
         <core1:description>Measured from one asterion to the other asterion.</core1:description>
         <oboInOwl:hasExactSynonym>biasterion breadth</oboInOwl:hasExactSynonym>
