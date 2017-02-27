@@ -258,6 +258,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -354,6 +360,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264694">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -417,6 +429,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264700">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -447,6 +465,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264703">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -532,6 +556,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264711">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -562,6 +592,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264714">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -691,6 +727,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264726">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -820,6 +862,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264738">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -916,6 +964,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264747">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -979,6 +1033,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264753">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1042,6 +1102,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264759">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1105,6 +1171,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264765">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1135,6 +1207,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264768">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1176,6 +1254,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264772">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1184,6 +1268,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264773">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1214,6 +1304,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264776">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1233,6 +1329,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264778">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1241,6 +1343,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264779">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1260,6 +1368,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264781">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1268,6 +1382,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_264782">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1352,6 +1472,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_75743">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1360,6 +1486,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_75744">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1379,6 +1511,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_76625">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1387,6 +1525,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_76626">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_264284"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -5491,8 +5635,8 @@ Thus, an investigation which comprises sex estimations of several individuals wi
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.AUB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.AUB"/>
-        <core1:description>Unfortunately, the exact procedure of scoring the relief of the Nuchal Planum correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
-The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</core1:description>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007Table3.3"/>
+        <core1:description>Measured from one root of the zygomatic process to the other root of zygomatic process.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.AUB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5505,7 +5649,6 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264776"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_75743"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.BBH"/>
-        <core1:description>The Gonial Angle should be scored according to Sjøvold 1988 (graph 168, e) viewed laterally (in norma lateralis).</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.BBH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5518,8 +5661,6 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264779"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_75743"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.BNL"/>
-        <core1:description>Unfortunately, the exact procedure of scoring the appearance of the whole Mandible correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
-The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.BNL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5532,7 +5673,6 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264782"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_75743"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.BPL"/>
-        <core1:description>The Mastoid Process should be scored according to Sjøvold 1988 (graph 168, c) viewed dorsally (in norma occipitalis).</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.BPL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5576,6 +5716,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.FOB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.FOB"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007Table3.3"/>
+        <core1:description>Measured from the one most lateral point of the foramen magnum to the other most lateral point of the foramen magnum.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.FOB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5635,7 +5777,6 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264772"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264778"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.GOL"/>
-        <core1:description>The External Occipital Protuberance should be scored according to Sjøvold 1988 (graph 168, b) viewed laterally (in norma lateralis).</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.GOL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5646,6 +5787,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.HMF">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.HMF"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007Table3.3"/>
+        <core1:description>According to Burns 2007, the measurement can be made from the description alone and hence no points are given.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.HMF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5657,7 +5800,6 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264700"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MAB"/>
-        <core1:description>The Metal Protuberance should be scored according to Sjøvold 1988 (graph 168, f) viewed frontally (in norma facialis).</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.MAB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5670,8 +5812,6 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264285"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264782"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MAL"/>
-        <core1:description>Unfortunately, the exact procedure of scoring the Mylohyoid Line correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
-The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.MAL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5682,6 +5822,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.MAN">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MAN"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007Table3.3"/>
+        <core1:description>According to Burns 2007, the measurement can be made from the description alone and hence no points are given.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.MAN</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5704,6 +5846,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.MLN">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MLN"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007Table3.3"/>
+        <core1:description>According to Burns 2007, the measurement can be made from the description alone and hence no points are given.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.MLN</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5714,6 +5858,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.MOW">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MOW"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007Table3.3"/>
+        <core1:description>According to Burns 2007, the measurement can be made from the description alone and hence no points are given.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.MOW</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5725,8 +5871,6 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264759"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.NLB"/>
-        <core1:description>Unfortunately, the exact procedure of scoring the shape of the Craniometrics.NLB correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
-The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.NLB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5739,8 +5883,6 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264779"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264781"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.NLH"/>
-        <core1:description>Unfortunately, the exact procedure of scoring the Zygomatic Process correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
-The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.NLH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5763,6 +5905,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.OBH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.OBH"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007Table3.3"/>
+        <core1:description>Measured from the superior margin to the inferior margin.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.OBH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5797,6 +5941,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.TMF">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.TMF"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007Table3.3"/>
+        <core1:description>According to Burns 2007, the measurement can be made from the description alone and hence no points are given.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.TMF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5807,8 +5953,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.UFBR">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.UFBR"/>
-        <core1:description>Unfortunately, the exact procedure of scoring the Supramastoid Crest correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
-The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</core1:description>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007Table3.3"/>
+        <core1:description>Measured from one fronto-zygomatic suture to the other fronto-zygomatic suture.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.UFBR</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5821,7 +5967,6 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264779"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264782"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.UFHT"/>
-        <core1:description>The shape of the Orbital Aperture should be scored according to Sjøvold 1988 (graph 168, d) viewed frontally (in norma facialis).</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.UFHT</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5833,8 +5978,6 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264726"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.WFB"/>
-        <core1:description>Unfortunately, the exact procedure of scoring the Superciliary Arches correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
-The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.WFB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5845,6 +5988,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.WRB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.WRB"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007Table3.3"/>
+        <core1:description>According to Burns 2007, the measurement can be made from the description alone and hence no points are given.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.WRB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5856,8 +6001,6 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264714"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.XCB"/>
-        <core1:description>Unfortunately, the exact procedure of scoring the Frontal and Parietal Eminences correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
-The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.XCB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5869,6 +6012,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_76626"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.XRH"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007Table3.3"/>
+        <core1:description>Measured from the gonion to the superior condylar surface.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.XRH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5879,6 +6024,8 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrCranMetr.ZMB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.ZMB"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007Table3.3"/>
+        <core1:description>According to Burns 2007, the measurement can be made from the description alone and hence no points are given.</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.ZMB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -5890,8 +6037,17 @@ The researcher is encouraged to specify his procedure in the Plan.FrCranMetr.</c
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/FMA_264753"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.ZYB"/>
-        <core1:description>The Craniometrics.ZYB should be scored according to Sjøvold 1988 (graph 168, a) viewed laterally (in norma lateralis).</core1:description>
         <rdfs:label>AssaySpecification.FrCranMetr.ZYB</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007">
+        <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
+        <core1:description>Burns, K. R. (2007). Forensic anthropology training manual. Routledge.</core1:description>
+        <rdfs:label>Burns 2007</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -7444,10 +7600,12 @@ It is used to determine that the specified input of the corresponding SpecimenCo
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264285">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264285</oboInOwl:id>
+        <core1:description>The single point at the intersection of sagittal suture of the hard palate and a line drawn from the posterior point of the right alveolar process to the posterior point of the left alveolar process. This point can be determined with sliding calipers or with a rubber band stretched around the entire alveolar process. It is used to measure maxilloalveolar length. [Burns 2007: 327]</core1:description>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alveolon</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264694">
+        <core1:description>A paired point at the most lateral edge of the mandibular condyle. It is used to measure bicondylar width. [Burns 2007: 329]</core1:description>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264694</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Condylion laterale</rdfs:label>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
@@ -7455,29 +7613,35 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264700">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ectomolare</rdfs:label>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264700</oboInOwl:id>
+        <core1:description>A paired point on the lateral (buccal) surface of the maxillary alveolar process. Instrumentally determined, is is usually located at the upper second molar. It is used to measure maximum alveolar width. [Burns 2007: 331]</core1:description>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264703">
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264703</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mastoidale</rdfs:label>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264703</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <core1:description>A paired point at the inferior tip of the mastoid process. It is used to measure mastoid length. [Burns 2007: 334]</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264711">
+        <core1:description>A paired point at the most lateral part of the superior margin of the external auditory meatus. It is used to define the Frankfort Plane and to measure mastoid length. [Burns 2007: 336]</core1:description>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porion</rdfs:label>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264711</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264714">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264714</oboInOwl:id>
+        <core1:description>A paired point used to measure maximum cranial width. Instrumentally determined, it is located on the parietal or temporal. [Burns 2007: 331]</core1:description>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Euryon</rdfs:label>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264726">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264726</oboInOwl:id>
+        <core1:description>A paired point on the curve of the temporal line. Instrumentally determined, it is the point on the frontal bone that gives the smallest measurement from the left to the right temporal line. It is used to measure minimum frontal width. [Burns 2007: 332]</core1:description>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frontotemporale</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264738">
+        <core1:description>A paired point on the medial wall of the orbit where the lacrimo-maxillary suture meets the frontal bone. It is between maxillofrontale and lacrimale and is used to measure orbital width and interorbital width. [Burns 2007: 330]</core1:description>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dacryon</rdfs:label>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264738</oboInOwl:id>
@@ -7485,25 +7649,30 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264747">
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ectoconchion</rdfs:label>
+        <core1:description>A paired point at the outer edge of the eye orbit. Instrumentally determined, this is the point at which a line extending from dacryon reaches the lateral orbital rim and divides the orbit horizontally into equal halves. It is used to measure maximum orbital width. [Burns 2007: 331]</core1:description>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264747</oboInOwl:id>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264753">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264753</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zygion</rdfs:label>
+        <core1:description>A paired point at the most lateral edge of the zygomatic arch. It is used to measure bizygomatic width (mid-facial width). Some sources define this point on the soma, but it is usually on the zygomatic process of the temporal. [Burns 2007: 339]</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264759">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alare</rdfs:label>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <core1:description>The paired point at the widest place on the margin of the nasal aperture. Instrumentally determined, it is used to measure nasal width. [Burns 2007: 327]</core1:description>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264759</oboInOwl:id>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264765">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264765</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infradentale</rdfs:label>
+        <core1:description>The highest single point on the bony septum between the lower central incisors. This can be confused with alveolare which is the comparable point between the upper central incisors. Infradentale is used to measure mandibular symphysis height. [Burns 2007: 333]</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264768">
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <core1:description>The lowest point on the midsagittal plane of the mandible; the bottom of the chin. It is used to measure total facial height and mandibular symphysis height. [Burns 2007: 332]</core1:description>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gnathion</rdfs:label>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264768</oboInOwl:id>
     </rdf:Description>
@@ -7511,35 +7680,42 @@ It is used to determine that the specified input of the corresponding SpecimenCo
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opisthocranion</rdfs:label>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264772</oboInOwl:id>
+        <core1:description>The most posterior single point on the skull, but not the occipital protuberance. Instrumentally determined, it is used to measure the maximum cranial length. [Burns 2007: 335]</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264773">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lambda</rdfs:label>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264773</oboInOwl:id>
+        <core1:description>The sigle point at the intersection of the sagittal suture and the lambdoidal suture. If lambda is obscured by fusion, a complicated suture or sutural bones, estimate the point by drawing lines along the the general direction of the two branches of the lambdoid suture and finding the point of intersection with the sagittal suture. [Burns 2007: 334]</core1:description>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264773</oboInOwl:id>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264776">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264776</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical cranial point  where the coronal and sagittal suture lines intersect.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <core1:description>The single point at the intersection of the sagittal and coronal sutures. It is used to measure maximum cranial height. [Burns 2007: 328]</core1:description>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bregma</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264778">
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <core1:description>The most anterior single point in the midsagittal section of the frontal bone at the level of the supraorbital ridges. It is above nasionjand is used to measure maximum cranial length. [Burns 2007: 332]</core1:description>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glabella (point)</rdfs:label>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264778</oboInOwl:id>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264779">
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nasion</rdfs:label>
+        <core1:description>The single point at the intersection of the nasofrontal suture and the internasal suture. It is used to measure total facial height and upper facial height. [Burns 2007: 334]</core1:description>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264779</oboInOwl:id>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264781">
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264781</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nasospinale</rdfs:label>
+        <core1:description>The sigle point on the intermaxillary suture at the base of the nasal aperture. It it used to measure nasal height. [Burns 2007: 334]</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264782">
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264782</oboInOwl:id>
+        <core1:description>The most anterior single point on the upper alveolar process. It is superior to alveolare and is used to measure maxilloalveolar length. [Burns 2007: 336]</core1:description>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Prosthion</rdfs:label>
     </rdf:Description>
@@ -7547,20 +7723,24 @@ It is used to determine that the specified input of the corresponding SpecimenCo
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:75743</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basion of foramen magnum</rdfs:label>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <core1:description>The single point at the anterior margin of the foramen magnum. It is the point most distant from bregma and is used to measure maximum cranial height. [Burns 2007: 328]</core1:description>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foramen magnum basion</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_75744">
+        <core1:description>The single point at the posterior margin of the foramen magnum. [Burns 2007: 335]</core1:description>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foramen magnum opisthion</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opisthion of foramen magnum</rdfs:label>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:75744</oboInOwl:id>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_76625">
+        <core1:description>A craniometric point at the junction of the lambdoid, occipitomastoid, and parietomastoid suture. [Burns 2007: 328]</core1:description>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:76625</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asterion</rdfs:label>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_76626">
+        <core1:description>A paired point at the outer corner of the angle of the mandible. It is the junction of the body and ramus of the mandible and is used to measure bigonial width and ascending ramus height. [Burns 2007: 332]</core1:description>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gonion</rdfs:label>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:76626</oboInOwl:id>
@@ -7623,6 +7803,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
         <oboInOwl:hasExactSynonym>maximum cranial length</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.HMF">
+        <core1:description>According to Burns 2007, the measurement can be made from the description alone and hence no points are given.</core1:description>
         <oboInOwl:hasExactSynonym>body height at mental foramen</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MAB">
@@ -7634,6 +7815,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
         <core1:description>Measured from the prosthion (pr) to the alveolon (al).</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MAN">
+        <core1:description>According to Burns 2007, the measurement can be made from the description alone and hence no points are given.</core1:description>
         <oboInOwl:hasExactSynonym>mandible angle</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MDH">
@@ -7641,10 +7823,12 @@ It is used to determine that the specified input of the corresponding SpecimenCo
         <core1:description>Measured from the porion to the mastoidale.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MLN">
+        <core1:description>According to Burns 2007, the measurement can be made from the description alone and hence no points are given.</core1:description>
         <oboInOwl:hasExactSynonym>mandible length</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.MOW">
         <oboInOwl:hasExactSynonym>mid-orbital width</oboInOwl:hasExactSynonym>
+        <core1:description>According to Burns 2007, the measurement can be made from the description alone and hence no points are given.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.NLB">
         <core1:description>Measured from one alare (al) to the other alare (al).</core1:description>
@@ -7671,6 +7855,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
         <oboInOwl:hasExactSynonym>parietal chord</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.TMF">
+        <core1:description>According to Burns 2007, the measurement can be made from the description alone and hence no points are given.</core1:description>
         <oboInOwl:hasExactSynonym>body thickness at mental foramen</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.UFBR">
@@ -7686,6 +7871,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
         <oboInOwl:hasExactSynonym>minimum frontal breadth</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.WRB">
+        <core1:description>According to Burns 2007, the measurement can be made from the description alone and hence no points are given.</core1:description>
         <oboInOwl:hasExactSynonym>minimum ramus breadth</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.XCB">
@@ -7697,6 +7883,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
         <core1:description>Measured from the gonion to the superior condylar surface.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.ZMB">
+        <core1:description>According to Burns 2007, the measurement can be made from the description alone and hence no points are given.</core1:description>
         <oboInOwl:hasExactSynonym>zygomaxillary breadth</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrCranMetr.ZYB">
