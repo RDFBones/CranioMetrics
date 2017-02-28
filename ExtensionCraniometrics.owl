@@ -2985,32 +2985,7 @@
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.ZYB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The DegreeOfSexualization is calculated from SkullMeasurements from assays carried out on material of one single skull or parts of one single skull. Thus, the conclusion refers to one individual.
-The DegreeOfSexualization is a rational number that ranges from -2 to +2 with negative values indicating femininity and positive values indicating masculinity.
-There are at leat two ways of drawing a conclusion based on the DegreeOfSexualization, i.e. two ways of selecting a LabelForSex. It is highly recommended to specify the way of drawing a conclusion in the plan and follow the plan throughout the whole investigation.
-
-
-1. Rigorously calculating
-
-Since the DegreeOfSexualization (abbr. DoS) is a decimal number ranging from -2 to +2, one could follow these rules:
-
-If +2 &gt;= DoS &gt;= 1.5 then sex is regarded as hypermasculine
-
-If 1.5 &gt; DoS &gt;= 0.5 then sex is regarded as masculine
-
-If 0.5 &gt; DoS &gt; -0.5 then sex is regarded as indifferent
-
-If -1.5 &lt; DoS =&lt; -0.5 then sex is regarded as feminine
-
-If -2 =&lt; DoS =&lt; -1.5 then sex is regarded as hyperfeminine
-
-This way does not require any kind of expert knowledge. Therefore, this way of sex estimation is rather a data transformation then a conclusion, but it is objective and comprehensible.
-
-
-2. Expert judgement
-
-One could regard the DegreeOfSexualization just as an useful indication. Together with the expertise of an experienced anthropologist and maybe further information on the sexual dimorphism of a given population and the state of preservation, the researcher may draw a conclusion. This conclusion – as an amalgamation of different kinds of information and experience – is therefore less objective and comprehensible but may be more reliable.
-In this case, please add a comment to the instance of EstimatingSexBasedOnDegreeOfSexualization and explain the conclusion in greater detail.</core1:description>
+        <core1:description>This class is technically required for the software RDFBones. Usually, a FrCranMetr investigation has no conclusion. Ancestry or sex estimations with FORDISC, for instance, should be treated as separate extensions.</core1:description>
     </owl:Class>
     
 
@@ -3043,7 +3018,8 @@ In this case, please add a comment to the instance of EstimatingSexBasedOnDegree
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesignExecution.FrCranMetr"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The Freiburg method of sex estimation (abbr. FrSexEst) is a morphological method that utilizes cranial and mandibular traits to estimate the sex of individuals from the bony parts of their skulls.</core1:description>
+        <core1:description>The FrCranMetr extension comprises 36 cranial and mandibular measurements. This set of measurements is according to table 3.3 in Burns 2007. Hence, this extension can be used to collect data for further analysis with FORDISC.
+These measurements were used at Biological Anthropology Freiburg to obtain cranial measurements for several skulls from the Alexander Ecker Collection.</core1:description>
     </owl:Class>
     
 
@@ -3070,14 +3046,8 @@ In this case, please add a comment to the instance of EstimatingSexBasedOnDegree
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrCranMetr"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>For each FrSexEst investigation, an instance of Plan.FrCranMetr is created.
-The Plan.FrCranMetr contains all information on how the StudyDesign.FrCranMetr is applied to the material in this single investigation.
-A detailed plan contributes substantially to the transperancy of an investigation and increases its repeatability. It is especially useful, since the StudyDesign.FrCranMetr leaves some decisions open to the researcher and is highly recommended if decisions are made different than suggested in StudyDesign.FrCranMetr.</core1:description>
-        <core1:description>Here are some points left open by StudyDesignFrSexEst plus examples of plan specifications:
-
-The researcher may specify precisely what material is included in the sample, i.e. selected as specimen, before the work on the material begins. For example: &quot;Skulls are included in the sample if more than 10 cranial and mandibular traits can be evaluated.&quot;
-The reseacher may specify precisely how the assays are carried out in this investigation. For example: &quot;The mastoid process, especially its height and breadth, is evaluated from a lateral perspective.&quot;
-The researcher may specify how to draw a conclusion based on the DegreeOfSexualization. For example: &quot;Conclusions are regarded as expert judgements and comments are added to describe the conclusions in detail.&quot;</core1:description>
+        <core1:description>For each FrCranMetr investigation, an instance of Plan.FrCranMetr is created.
+The Plan.FrCranMetr contains all information on how the StudyDesign.FrCranMetr is applied to the material in this single investigation.</core1:description>
     </owl:Class>
     
 
@@ -3092,8 +3062,8 @@ The researcher may specify how to draw a conclusion based on the DegreeOfSexuali
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrCranMetr"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>For each FrSexEst investigation that is carried out, an instance of Planning.FrCranMetr is created. Comments may be added to Planning.FrCranMetr to document all disussions, preparations etc. which were performed before researchers agreed on carrying out an FrSexEst investigation.</core1:description>
-        <core1:description>Planning.FrCranMetr has in contrast to other investigation planning processes no testable hypothesis as input since the process of estimating the sex of an individual can be undertaken without testing any hypothesis.</core1:description>
+        <core1:description>For each FrCranMetr investigation that is carried out, an instance of Planning.FrCranMetr is created. Comments may be added to Planning.FrCranMetr to document all disussions, preparations etc. which were performed before researchers agreed on carrying out a FrCranMetr investigation.</core1:description>
+        <core1:description>Planning.FrCranMetr has in contrast to other investigation planning processes no testable hypothesis as input. Testable hyptheses like estimating an individuals ancestry  or identifying fluctuating asymmetry are startingpoints for further extensions and can use data sets from FrCranMetr investigations.</core1:description>
     </owl:Class>
     
 
@@ -3109,7 +3079,7 @@ The researcher may specify how to draw a conclusion based on the DegreeOfSexuali
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A class technically required for the automatic prescreening of potential specimen.
-The class which SkeletalMaterialSpecification.FrCranMetr is about defines the range within which the software searches for potential specimens. As default, &quot;Skeletal inventory&quot; is chosen. Thus, all skeletal inventories, i.e. all the material within a collection, is screened. By defining subclasses of &apos;Skeletal inventory&apos; and selecting one or more of these, the range of the prescreening procedure can be adjusted.</rdfs:comment>
+The class which SkeletalMaterialSpecification.FrCranMetr is about defines the range within which the RDFBones software searches for potential specimens. As default, &quot;Skeletal inventory&quot; is chosen. Thus, all skeletal inventories, i.e. all the material within a collection, is screened. By defining subclasses of &apos;Skeletal inventory&apos; and selecting one or more of these, the range of the prescreening procedure can be adjusted.</rdfs:comment>
     </owl:Class>
     
 
@@ -3122,7 +3092,7 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3133,6 +3103,7 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.ASB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3141,8 +3112,7 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.AUB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3151,8 +3121,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BBH">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3161,8 +3130,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BNL">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3171,8 +3139,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BPL">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3181,6 +3148,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.CDL">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3189,6 +3157,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.DKB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3197,6 +3166,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.EKB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3205,6 +3175,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.FOB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3213,6 +3184,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.FOL">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3221,6 +3193,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.FRC">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3229,6 +3202,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.GNI">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3237,6 +3211,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.GOG">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3245,8 +3220,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.GOL">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3255,6 +3229,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.HMF">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3263,8 +3238,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MAB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3273,8 +3247,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MAL">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3283,6 +3256,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MAN">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3291,6 +3265,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MDH">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3299,6 +3274,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MLN">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3307,6 +3283,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MOW">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3315,8 +3292,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.NLB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3325,8 +3301,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.NLH">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3335,6 +3310,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.OBB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3343,6 +3319,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.OBH">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3351,6 +3328,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.OCC">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3359,6 +3337,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.PAC">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3367,6 +3346,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.TMF">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3375,8 +3355,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.UFBR">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3385,8 +3364,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.UFHT">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3395,8 +3373,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.WFB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3405,6 +3382,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.WRB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3413,8 +3391,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.XCB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3423,6 +3400,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.XRH">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3431,6 +3409,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.ZMB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3439,8 +3418,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.ZYB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
     </owl:Class>
     
 
@@ -3455,6 +3433,8 @@ The researcher may add a comment to this instance to explain his decision in det
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3469,8 +3449,8 @@ The researcher may add a comment to this instance to explain his decision in det
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3485,8 +3465,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3501,8 +3481,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3517,8 +3497,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3533,6 +3513,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3547,6 +3529,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3561,6 +3545,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3575,6 +3561,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3589,6 +3577,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3603,6 +3593,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3617,6 +3609,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3631,6 +3625,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3645,8 +3641,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3661,6 +3657,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3675,8 +3673,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3691,8 +3689,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3707,6 +3705,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3721,6 +3721,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3735,6 +3737,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3749,6 +3753,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3763,8 +3769,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3779,8 +3785,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3795,6 +3801,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3809,6 +3817,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3823,6 +3833,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3837,6 +3849,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3851,6 +3865,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3865,8 +3881,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3881,8 +3897,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3897,8 +3913,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3913,6 +3929,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3927,8 +3945,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3943,6 +3961,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3957,6 +3977,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -3971,8 +3993,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrCranMetr) during the specimen collection process.
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -5235,9 +5257,11 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.ZYB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>For each individual&apos;s skull whose sex should be estimated, an instance of StudyDesignExecution.FrCranMetr should be created.
-All assays which can be carried out on this skull have only material from this skull as input (=specimen). These assays are related to the corresponding instance of StudyDesignExecution.FrCranMetr.
-Thus, an investigation which comprises sex estimations of several individuals will consist of a single instance of Investigation.FrCranMetr and instances of StudyDesignExecution as to the number of individuals in the sample.</core1:description>
+        <core1:description>Craniometrics are performed on a single human skull. This implies that:
+
+- for each skull under investigation, an instance of StudyDesignExecution.FrCranMetr is created which relates to all actions that are carried out on this single human skull, i. e. specimen collection processes and assays
+
+- the researcher must ensure that all material which is selected as specimens during the specimen collection process belongs to one individual skull!</core1:description>
     </owl:Class>
     
 
@@ -6046,7 +6070,7 @@ Thus, an investigation which comprises sex estimations of several individuals wi
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007">
         <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
-        <core1:description>Burns, K. R. (2007). Forensic anthropology training manual. Routledge.</core1:description>
+        <core1:description>Burns, K. R. (2007). Forensic anthropology training manual. Pearson Education.</core1:description>
         <rdfs:label>Burns 2007</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6056,8 +6080,7 @@ Thus, an investigation which comprises sex estimations of several individuals wi
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Burns2007Table3.3">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
-        <core1:description>In the software version of FrSexEst, a PDF and csv version of the data entry form for the sex estimation of adults which was used in the sex estimation of skulls from the Alexander-Ecker-Collection Freiburg is attached to this instance.
-The data entry form can be downloaded from the GitHub page of FrSexEst alternatively.</core1:description>
+        <core1:description>This table contains abbreviations, measurement names and relevant anatomical points of the human skull which are used in the FrCranMetr extension. This table is therefore considered as protocol.</core1:description>
         <rdfs:label>Burns 2007: Table 3.3</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6067,8 +6090,7 @@ The data entry form can be downloaded from the GitHub page of FrSexEst alternati
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Craniometrics">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000067"/>
-        <core1:description>The estimation of the sex of an individual based on skeletal remains is a classical aim of anthropological investigations. It can be realized by evaluating different traits on different bony parts of the skeleton.
-All material and all traits (=assays) that can be used to estimate the sex of an individual based on skeletal remains are related to this instance and can easily be queried.</core1:description>
+        <core1:description>Craniometrics comprise measurements of the cranium and the mandible. The cranial and mandibular measurements can be further used to estimate ancestry or sex with FORDISC, for example.</core1:description>
         <rdfs:label>Craniometrics</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6080,6 +6102,7 @@ All material and all traits (=assays) that can be used to estimate the sex of an
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.ASB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.ASB"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.ASB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6091,8 +6114,7 @@ All material and all traits (=assays) that can be used to estimate the sex of an
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.AUB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.AUB"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.AUB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6104,8 +6126,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.BBH"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.BBH"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.BBH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6117,8 +6138,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.BNL"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.BNL"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.BNL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6130,8 +6150,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.BPL"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.BPL"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.BPL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6143,6 +6162,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.CDL"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.CDL"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.CDL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6154,6 +6174,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.DKB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.DKB"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.DKB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6165,6 +6186,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.EKB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.EKB"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.EKB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6176,6 +6198,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.FOB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.FOB"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.FOB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6187,6 +6210,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.FOL"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.FOL"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.FOL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6198,6 +6222,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.FRC"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.FRC"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.FRC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6209,6 +6234,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.GNI"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.GNI"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.GNI</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6220,6 +6246,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.GOG"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.GOG"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.GOG</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6231,8 +6258,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.GOL"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.GOL"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.GOL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6244,6 +6270,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.HMF"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.HMF"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.HMF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6255,8 +6282,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MAB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MAB"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.MAB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6268,8 +6294,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MAL"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MAL"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.MAL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6281,6 +6306,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MAN"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MAN"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.MAN</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6292,6 +6318,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MDH"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MDH"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.MDH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6303,6 +6330,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MLN"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MLN"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.MLN</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6314,6 +6342,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MOW"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MOW"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.MOW</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6325,8 +6354,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.NLB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.NLB"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.NLB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6338,8 +6366,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.NLH"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.NLH"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.NLH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6351,6 +6378,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.OBB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.OBB"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.OBB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6362,6 +6390,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.OBH"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.OBH"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.OBH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6373,6 +6402,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.OCC"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.OCC"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.OCC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6384,6 +6414,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.PAC"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.PAC"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.PAC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6395,6 +6426,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.TMF"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.TMF"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.TMF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6406,8 +6438,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.UFBR"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.UFBR"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.UFBR</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6419,8 +6450,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.UFHT"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.UFHT"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.UFHT</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6432,8 +6462,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.WFB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.WFB"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.WFB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6445,6 +6474,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.WRB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.WRB"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.WRB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6456,8 +6486,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.XCB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.XCB"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.XCB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6469,6 +6498,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.XRH"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.XRH"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.XRH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6480,6 +6510,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.ZMB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.ZMB"/>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.ZMB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6491,8 +6522,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.ZYB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.ZYB"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.ZYB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6509,7 +6539,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.FrCranMetr">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001892"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>In each FrSexEst investigation two types of data are generated. There is one SkullMeasurement for each assay, thus a maximum of 14 different SkullMeasurements per StudyDesignExecution.FrCranMetr. These SkullMeasurements are transformed into one DegreeOfSexualization.</core1:description>
+        <core1:description>In each FrCranMetr investigation, a set of SkullMeasurements (scalar measurement data) is generated.</core1:description>
         <rdfs:label>SpecificationOfDataToBeGeneratedInAnInvestigation.FrCranMetr</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6519,6 +6549,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.ASB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.ASB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6528,7 +6559,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.AUB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete occipital bones are potential Specimen.FrCranMetr.AUB</core1:description>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.AUB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6538,7 +6569,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.BBH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete mandibles are potential Specimen.FrCranMetr.BBH</core1:description>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.BBH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6548,7 +6579,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.BNL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete mandibles are potential Specimen.FrCranMetr.BNL</core1:description>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.BNL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6558,7 +6589,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.BPL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete temporal bones are potential Specimen.FrCranMetr.BPL</core1:description>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.BPL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6568,6 +6599,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.CDL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.CDL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6577,6 +6609,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.DKB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.DKB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6586,6 +6619,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.EKB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.EKB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6595,6 +6629,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.FOB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.FOB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6604,6 +6639,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.FOL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.FOL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6613,6 +6649,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.FRC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.FRC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6622,6 +6659,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.GNI">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.GNI</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6631,6 +6669,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.GOG">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.GOG</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6640,7 +6679,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.GOL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete occipital bones are potential Specimen.FrCranMetr.GOL</core1:description>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.GOL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6650,6 +6689,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.HMF">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.HMF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6659,7 +6699,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.MAB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete mandibles are potential Specimen.FrCranMetr.MAB</core1:description>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.MAB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6669,7 +6709,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.MAL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete mandibles are potential Specimen.FrCranMetr.MAL</core1:description>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.MAL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6679,6 +6719,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.MAN">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.MAN</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6688,6 +6729,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.MDH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.MDH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6697,6 +6739,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.MLN">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.MLN</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6706,6 +6749,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.MOW">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.MOW</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6715,7 +6759,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.NLB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete Craniometrics.NLB are potential Specimen.FrCranMetr.NLB</core1:description>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.NLB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6725,7 +6769,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.NLH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete temporal bones are potential Specimen.ZyomaticProcess</core1:description>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.NLH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6735,6 +6779,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.OBB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.OBB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6744,6 +6789,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.OBH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.OBH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6753,6 +6799,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.OCC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.OCC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6762,6 +6809,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.PAC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.PAC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6771,6 +6819,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.TMF">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.TMF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6780,7 +6829,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.UFBR">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete temporal bones are potential Specimen.FrCranMetr.UFBR</core1:description>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.UFBR</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6790,7 +6839,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.UFHT">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only a set of complete frontal bone, complete Craniometrics.NLB and complete maxillas is a potential Specimen.FrCranMetr.UFHT</core1:description>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.UFHT</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6800,7 +6849,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.WFB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete frontal bones are potential Specimen.FrCranMetr.WFB</core1:description>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.WFB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6810,6 +6859,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.WRB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.WRB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6819,7 +6869,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.XCB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only a set of complete frontal and parietal bones is a potential Specimen.FrCranMetr.XCB</core1:description>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.XCB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6829,6 +6879,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.XRH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.XRH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6838,6 +6889,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.ZMB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.ZMB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6847,7 +6899,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.ZYB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete frontal bones are potential Specimen.FrCranMetr.ZYB</core1:description>
+        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.ZYB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7183,8 +7235,8 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.WRB"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.XRH"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.ZMB"/>
-        <core1:description>The StudyDesign.FrCranMetr brings together all the information that is necessary for carrying out a FrSexEst investigation: what material is suitable and how it is selected, how and what kind of data are collected and how data are transformed afterwards.
-Furthermore, the general StudyDesign.FrCranMetr is concretized as a plan which specifies how the StudyDesign.FrCranMetr is applied to the material in a single investigation.</core1:description>
+        <core1:description>The StudyDesign.FrCranMetr brings together all the information that is necessary for carrying out a FrCranMetr investigation.
+Furthermore, the StudyDesign.FrCranMetr is concretized as a plan which specifies how the StudyDesign.FrCranMetr is applied to the material in a single investigation.</core1:description>
         <rdfs:label>StudyDesign.FrCranMetr</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7207,6 +7259,7 @@ Furthermore, the general StudyDesign.FrCranMetr is concretized as a plan which s
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.ASB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.ASB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7217,8 +7270,7 @@ Furthermore, the general StudyDesign.FrCranMetr is concretized as a plan which s
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.AUB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.AUB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7229,8 +7281,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.BBH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.BBH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7241,8 +7292,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.BNL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.BNL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7253,8 +7303,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.BPL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.BPL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7265,6 +7314,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.CDL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.CDL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7275,6 +7325,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.DKB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.DKB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7285,6 +7336,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.EKB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.EKB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7295,6 +7347,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.FOB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.FOB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7305,6 +7358,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.FOL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.FOL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7315,6 +7369,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.FRC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.FRC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7325,6 +7380,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.GNI">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.GNI</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7335,6 +7391,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.GOG">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.GOG</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7345,8 +7402,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.GOL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.GOL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7357,6 +7413,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.HMF">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.HMF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7367,8 +7424,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MAB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.MAB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7379,8 +7435,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MAL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.MAL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7391,6 +7446,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MAN">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.MAN</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7401,6 +7457,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MDH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.MDH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7411,6 +7468,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MLN">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.MLN</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7421,6 +7479,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MOW">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.MOW</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7431,8 +7490,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.NLB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.NLB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7443,8 +7501,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.NLH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.NLH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7455,6 +7512,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.OBB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.OBB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7465,6 +7523,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.OBH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.OBH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7475,6 +7534,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.OCC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.OCC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7485,6 +7545,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.PAC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.PAC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7495,6 +7556,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.TMF">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.TMF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7505,8 +7567,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.UFBR">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.UFBR</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7517,8 +7578,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.UFHT">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.UFHT</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7529,8 +7589,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.WFB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.WFB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7541,6 +7600,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.WRB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.WRB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7551,8 +7611,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.XCB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.XCB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7563,6 +7622,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.XRH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.XRH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7573,6 +7633,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.ZMB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.ZMB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7583,8 +7644,7 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.ZYB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen done by the RDFBones software.</core1:description>
         <rdfs:label>ValueSpecification.FrCranMetr.ZYB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7891,77 +7951,151 @@ It is used to determine that the specified input of the corresponding SpecimenCo
         <oboInOwl:hasExactSynonym>bizygomatic breadth</oboInOwl:hasExactSynonym>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement">
-        <core1:description>The outcome of the assays that are used in a FrSexEst investigation is stored as a data item of the type SkullMeasurement. There exists a subclass of SkullMeasurement for each assay.</core1:description>
+        <core1:description>The outcome of the assays that are used in a FrCranMetr investigation is stored as a data item of the type SkullMeasurement. There exists a subclass of SkullMeasurement for each assay.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.ASB">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.AUB">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrCranMetr.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrCranMetr). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrCranMetr corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.BBH">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrCranMetr.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrCranMetr). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrCranMetr corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.BNL">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrCranMetr.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrCranMetr). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrCranMetr corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.BPL">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrCranMetr.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrCranMetr). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrCranMetr corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.CDL">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.DKB">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.EKB">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.FOB">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.FOL">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.FRC">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.GNI">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.GOG">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.GOL">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrCranMetr.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrCranMetr). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrCranMetr corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.HMF">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MAB">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrCranMetr.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrCranMetr). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrCranMetr corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MAL">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrCranMetr.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrCranMetr). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrCranMetr corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MAN">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MDH">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MLN">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MOW">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.NLB">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrCranMetr.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrCranMetr). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrCranMetr corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.NLH">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrCranMetr.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrCranMetr). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrCranMetr corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.OBB">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.OBH">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.OCC">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.PAC">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.TMF">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.UFBR">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrCranMetr.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrCranMetr). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrCranMetr corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.UFHT">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrCranMetr.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrCranMetr). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrCranMetr corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.WFB">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrCranMetr.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrCranMetr). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrCranMetr corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.WRB">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.XCB">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrCranMetr.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrCranMetr). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrCranMetr corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.XRH">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.ZMB">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.ZYB">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrCranMetr.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrCranMetr). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrCranMetr corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrCranMetr.</core1:description>
     </rdf:Description>
 </rdf:RDF>
 
