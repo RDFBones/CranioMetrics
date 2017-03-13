@@ -1703,6 +1703,12 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfLacrimalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfLacrimalBone"/>
+    
+
+
     <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfMandible -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
@@ -1715,9 +1721,21 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfNasalBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfNasalBone"/>
+    
+
+
     <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#EntireBonyPartOfPalatineBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfPalatineBone"/>
     
 
 
@@ -4005,6 +4023,24 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrCranMetr.ASB"/>
             </owl:Restriction>
@@ -4026,7 +4062,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4052,7 +4088,19 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4078,7 +4126,19 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfNasalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4104,7 +4164,13 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4129,6 +4195,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrCranMetr.CDL"/>
             </owl:Restriction>
@@ -4147,6 +4219,18 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.DKB">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfLacrimalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -4169,6 +4253,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrCranMetr.EKB"/>
             </owl:Restriction>
@@ -4187,6 +4277,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.FOB">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -4209,6 +4305,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrCranMetr.FOL"/>
             </owl:Restriction>
@@ -4227,6 +4329,24 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.FRC">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfNasalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -4249,6 +4369,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrCranMetr.GNI"/>
             </owl:Restriction>
@@ -4267,6 +4393,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.GOG">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -4290,7 +4422,13 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4315,6 +4453,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrCranMetr.HMF"/>
             </owl:Restriction>
@@ -4336,7 +4480,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4362,7 +4506,13 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfPalatineBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4387,6 +4537,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrCranMetr.MAN"/>
             </owl:Restriction>
@@ -4405,6 +4561,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MDH">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -4427,6 +4589,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrCranMetr.MLN"/>
             </owl:Restriction>
@@ -4445,6 +4613,18 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MOW">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -4468,7 +4648,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4494,7 +4674,19 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfNasalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4519,6 +4711,24 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfLacrimalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrCranMetr.OBB"/>
             </owl:Restriction>
@@ -4537,6 +4747,24 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.OBH">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -4559,6 +4787,18 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrCranMetr.OCC"/>
             </owl:Restriction>
@@ -4579,6 +4819,24 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrCranMetr.PAC"/>
             </owl:Restriction>
@@ -4597,6 +4855,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.TMF">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -4620,7 +4884,13 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4658,7 +4928,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfNasalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4709,6 +4979,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrCranMetr.WRB"/>
             </owl:Restriction>
@@ -4730,13 +5006,14 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4761,6 +5038,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrCranMetr.XRH"/>
             </owl:Restriction>
@@ -4779,6 +5062,18 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.ZMB">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -4802,7 +5097,14 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
+                            <rdf:Description rdf:about="http://w3id.org/rdfbones/core#EntireBonyPartOfZygomaticBone"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6102,7 +6404,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.ASB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.ASB"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.ASB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6114,7 +6416,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.AUB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.AUB"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.AUB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6126,7 +6428,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.BBH"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.BBH"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.BBH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6138,7 +6440,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.BNL"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.BNL"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.BNL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6150,7 +6452,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.BPL"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.BPL"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.BPL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6162,7 +6464,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.CDL"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.CDL"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.CDL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6174,7 +6476,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.DKB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.DKB"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.DKB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6186,7 +6488,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.EKB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.EKB"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.EKB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6198,7 +6500,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.FOB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.FOB"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.FOB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6210,7 +6512,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.FOL"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.FOL"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.FOL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6222,7 +6524,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.FRC"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.FRC"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.FRC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6234,7 +6536,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.GNI"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.GNI"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.GNI</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6246,7 +6548,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.GOG"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.GOG"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.GOG</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6258,7 +6560,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.GOL"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.GOL"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.GOL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6270,7 +6572,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.HMF"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.HMF"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.HMF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6282,7 +6584,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MAB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MAB"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.MAB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6294,7 +6596,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MAL"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MAL"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.MAL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6306,7 +6608,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MAN"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MAN"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.MAN</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6318,7 +6620,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MDH"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MDH"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.MDH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6330,7 +6632,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MLN"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MLN"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.MLN</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6342,7 +6644,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.MOW"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.MOW"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.MOW</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6354,7 +6656,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.NLB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.NLB"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.NLB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6366,7 +6668,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.NLH"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.NLH"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.NLH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6378,7 +6680,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.OBB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.OBB"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.OBB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6390,7 +6692,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.OBH"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.OBH"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.OBH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6402,7 +6704,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.OCC"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.OCC"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.OCC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6414,7 +6716,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.PAC"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.PAC"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.PAC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6426,7 +6728,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.TMF"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.TMF"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.TMF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6438,7 +6740,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.UFBR"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.UFBR"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.UFBR</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6450,7 +6752,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.UFHT"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.UFHT"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.UFHT</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6462,7 +6764,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.WFB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.WFB"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.WFB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6474,7 +6776,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.WRB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.WRB"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.WRB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6486,7 +6788,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.XCB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.XCB"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.XCB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6498,7 +6800,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.XRH"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.XRH"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.XRH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6510,7 +6812,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.ZMB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.ZMB"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.ZMB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6522,7 +6824,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrCranMetr.ZYB"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrCranMetr.ZYB"/>
-        <core1:description>For cranial measurements it is necessary that the relevant anatomical points of the skull (see corresponding AssaySpecification for further information) which determine the measurement are identifiable.</core1:description>
+        <core1:description>For cranial measurements it is necessary that the relevant skeletal elements defined in the SpecimenCollectionObjective are complete, i.e. have the &apos;Label for completeness in two states&apos; &apos;complete&apos;.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.FrCranMetr.ZYB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6549,7 +6851,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.ASB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.ASB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6559,7 +6862,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.AUB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.AUB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6569,7 +6873,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.BBH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.BBH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6579,7 +6884,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.BNL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.BNL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6589,7 +6895,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.BPL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.BPL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6599,7 +6906,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.CDL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.CDL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6609,7 +6917,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.DKB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.DKB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6619,7 +6928,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.EKB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.EKB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6629,7 +6939,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.FOB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.FOB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6639,7 +6950,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.FOL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.FOL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6649,7 +6961,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.FRC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.FRC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6659,7 +6972,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.GNI">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.GNI</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6669,7 +6983,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.GOG">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.GOG</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6679,7 +6994,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.GOL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.GOL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6689,7 +7005,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.HMF">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.HMF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6699,7 +7016,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.MAB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.MAB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6709,7 +7027,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.MAL">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.MAL</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6719,7 +7038,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.MAN">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.MAN</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6729,7 +7049,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.MDH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.MDH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6739,7 +7060,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.MLN">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.MLN</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6749,7 +7071,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.MOW">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.MOW</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6759,7 +7082,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.NLB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.NLB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6769,7 +7093,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.NLH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.NLH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6779,7 +7104,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.OBB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.OBB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6789,7 +7115,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.OBH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.OBH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6799,7 +7126,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.OCC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.OCC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6809,7 +7137,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.PAC">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.PAC</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6819,7 +7148,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.TMF">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.TMF</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6829,7 +7159,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.UFBR">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.UFBR</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6839,7 +7170,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.UFHT">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.UFHT</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6849,7 +7181,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.WFB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.WFB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6859,7 +7192,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.WRB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.WRB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6869,7 +7203,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.XCB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.XCB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6879,7 +7214,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.XRH">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.XRH</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6889,7 +7225,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.ZMB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.ZMB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -6899,7 +7236,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrCranMetr.ZYB">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only human skulls are suitable input for FrCraMetr investigations.</core1:description>
+        <core1:description>The skeletal elements which are defined as input of the corresponding SpecimenCollectionProcess are potential specimen.
+In case of FrCranMetr, preserved but isolated skeletal elements are not sufficient since one needs to know the position the bones actually had within the skull to obtain craniometric measurements. The researcher must select material which really enables craniometrics.</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrCranMetr.ZYB</rdfs:label>
     </owl:NamedIndividual>
     
@@ -7239,18 +7577,6 @@ Therefore, each instance of this class is a suitable input for the corresponding
 Furthermore, the StudyDesign.FrCranMetr is concretized as a plan which specifies how the StudyDesign.FrCranMetr is applied to the material in a single investigation.</core1:description>
         <rdfs:label>StudyDesign.FrCranMetr</rdfs:label>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Test -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Test"/>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Test2 -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Test2"/>
     
 
 
@@ -7756,8 +8082,8 @@ Furthermore, the StudyDesign.FrCranMetr is concretized as a plan which specifies
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bregma</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_264778">
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
         <core1:description>The most anterior single point in the midsagittal section of the frontal bone at the level of the supraorbital ridges. It is above nasionjand is used to measure maximum cranial length. [Burns 2007: 332]</core1:description>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glabella (point)</rdfs:label>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:264778</oboInOwl:id>
     </rdf:Description>
