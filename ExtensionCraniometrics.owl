@@ -191,6 +191,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000004 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000004"/>
+    
+
+
     <!-- http://vivoweb.org/ontology/core#hasValue -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#hasValue"/>
@@ -1553,6 +1559,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000144"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000572 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000572"/>
@@ -2786,6 +2798,14 @@
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Conclusion.FrCranMetr -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Conclusion.FrCranMetr">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000144"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#DrawingAConclusion.FrCranMetr -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DrawingAConclusion.FrCranMetr">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000338"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -3003,6 +3023,12 @@
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.ZYB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Conclusion.FrCranMetr"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <core1:description>This class is technically required for the software RDFBones. Usually, a FrCranMetr investigation has no conclusion. Ancestry or sex estimations with FORDISC, for instance, should be treated as separate extensions.</core1:description>
     </owl:Class>
     
@@ -3021,7 +3047,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Conclusion.FrCranMetr"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DrawingAConclusion.FrCranMetr"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3108,9 +3134,9 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000004"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -3121,7 +3147,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.ASB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3130,7 +3157,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.AUB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3139,7 +3167,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BBH">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3148,7 +3177,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BNL">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3157,7 +3187,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.BPL">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3166,7 +3197,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.CDL">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3175,7 +3207,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.DKB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3184,7 +3217,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.EKB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3193,7 +3227,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.FOB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3202,7 +3237,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.FOL">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3211,7 +3247,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.FRC">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3220,7 +3257,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.GNI">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3229,7 +3267,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.GOG">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3238,7 +3277,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.GOL">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3247,7 +3287,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.HMF">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3256,7 +3297,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MAB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3265,7 +3307,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MAL">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3274,7 +3317,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MAN">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3283,7 +3327,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MDH">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3292,7 +3337,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MLN">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3301,7 +3347,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.MOW">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3310,7 +3357,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.NLB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3319,7 +3367,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.NLH">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3328,7 +3377,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.OBB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3337,7 +3387,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.OBH">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3346,7 +3397,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.OCC">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3355,7 +3407,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.PAC">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3364,7 +3417,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.TMF">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3373,7 +3427,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.UFBR">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3382,7 +3437,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.UFHT">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3391,7 +3447,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.WFB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3400,7 +3457,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.WRB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3409,7 +3467,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.XCB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3418,7 +3477,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.XRH">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3427,7 +3487,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.ZMB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
@@ -3436,7 +3497,8 @@ The class which SkeletalMaterialSpecification.FrCranMetr is about defines the ra
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement.ZYB">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkullMeasurement"/>
-        <core1:description>A cranial or mandibular measurement in millimeter (therefore xsd:nonNegativeInteger and not xsd:float).</core1:description>
+        <core1:description>A cranial or mandibular measurement in centimeter.
+xsd:float accepts &quot;14.5&quot; but not &quot;145&quot; or &quot;145 mm&quot; or &quot;14.5 cm&quot;.</core1:description>
     </owl:Class>
     
 
