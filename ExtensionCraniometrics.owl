@@ -20,16 +20,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst">
-        <owl:imports rdf:resource="http://www.cidoc-crm.org/cidoc-crm/"/>
-        <owl:imports rdf:resource="http://vivoweb.org/ontology/core"/>
-        <owl:imports rdf:resource="http://w3id.org/rdfbones/patches/obo-fma-patch"/>
-        <owl:imports rdf:resource="http://w3id.org/rdfbones/core"/>
-        <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/fma/releases/2016-02-09/fma.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/"/>
-        <owl:imports rdf:resource="http://purl.org/ontology/bibo/"/>
-    </owl:Ontology>
+    <owl:Ontology rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst"/>
     
 
 
